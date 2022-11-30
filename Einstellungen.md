@@ -23,7 +23,7 @@ allow-nether: true/false
 ### Teppich- und TNT-Duper & Co.
 * In Vanilla muss hierfür nicht angepasst werden. Bei Paper-Servern gilt folgendes:
 
-in `paper.yml`
+in `config/paper-global.yml`
 ```
 unsupported-settings:
   allow-piston-duplication: true/false
@@ -32,7 +32,7 @@ unsupported-settings:
 ### Zerstören von Bedrock und anderen unzerstörbaren Blöcken
 * In Vanilla muss hierfür nicht angepasst werden. Bei Paper-Servern gilt folgendes:
 
-in `paper.yml`
+in `config/paper-global.yml`
 ```
 unsupported-settings:
   allow-perm-block-break-exploits: true/false
