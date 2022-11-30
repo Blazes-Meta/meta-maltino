@@ -18,7 +18,7 @@ in `server.properties`
 allow-nether: true/false
 ```
 
-## Glitches erlauben/verhindern
+## Glitches erlauben/verbieten
 
 ### Teppich- und TNT-Duper & Co.
 * In Vanilla muss hierfür nicht angepasst werden. Bei Paper-Servern gilt folgendes:
