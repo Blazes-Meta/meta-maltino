@@ -5,5 +5,5 @@
 
 in `bukkit.yml`
 ```
-allow-end:
+allow-end: true/false
 ```
