@@ -5,5 +5,13 @@
 
 in `bukkit.yml`
 ```
-allow-end: true/false
+settings:
+  allow-end: true/false
+```
+
+### Nether-Dimension aktivieren/deaktivieren
+
+in `server.properties`
+```
+allow-nether: true/false
 ```
