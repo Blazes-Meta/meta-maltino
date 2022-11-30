@@ -18,3 +18,17 @@ custom-quit-message: ""
   * `{ONLINE}` - Die Anzahl der Spieler, die online sind; 
   * `{UNIQUE}` - Die Anzahl der verschiedenen Spieler, die jemals auf dem Server waren; 
   * `{UPTIME}` - Die Zeit, die der Server seit dem letzten neustart online war
+
+### Nachrichten bei Disconnects
+* Nur für Spigot-Server (und Ableger wie Paper)
+
+in `spigot.yml`
+```properties
+messages:
+  whitelist:
+  server-full:
+  outdated-client:
+  outdated-server:
+  restart:
+```
+Es kann die Variable `{0}` verwendet werden, um die benötigte Version zum Beitreten anzuzeigen
