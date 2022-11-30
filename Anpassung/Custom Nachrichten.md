@@ -32,3 +32,9 @@ messages:
   restart:
 ```
 Es kann die Variable `{0}` verwendet werden, um die benötigte Version zum Beitreten anzuzeigen
+
+⚠ Falls parallel auch Bukkit-Code verwendet wird (z.B. bei Paper-Servern) muss die eigene Nachricht beim Neustarten/Schließen des Servers in `bukkit.yml` eingestellt werden:
+```properties
+settings:
+  shutdown-message:
+```
