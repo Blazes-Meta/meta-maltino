@@ -1,8 +1,8 @@
 # Allgemeine Einstellungen für Server
 
-## Dimensionen
+## Dimensionen aktivieren/deaktivieren
 
-### End-Dimension aktivieren/deaktivieren
+### End-Dimension
 * nur für Bukkit-Server (und deren Ableger, wie z.B. Paper)
 
 in `bukkit.yml`
@@ -11,7 +11,7 @@ settings:
   allow-end: true/false
 ```
 
-### Nether-Dimension aktivieren/deaktivieren
+### Nether-Dimension
 
 in `server.properties`
 ```
