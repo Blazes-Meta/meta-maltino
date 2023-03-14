@@ -28,3 +28,10 @@ in Version `2.0`
     * Level
 * Informationsleiste am oberen Bildschirmrand (muss noch manuell angepasst werden)
 * Anti-TNT (Aktivier- und Deaktivierbar), gezündetes TNT wird vernichtet und lässt ein TNT-Item fallen
+
+## Planung
+
+* Funktion zum erstellen eines Spielstarts
+    * Barriere-Box
+    * setzt Weltspawnpunkt
+    * Befehlsblöcke für Sättigung und Schwäche
