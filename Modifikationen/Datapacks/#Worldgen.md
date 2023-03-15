@@ -1,4 +1,4 @@
-# Terralith, Incendium, Nullscape & Continents
+# Terralith, Incendium, Nullscape, Structory & Continents
 
 Getestete Versionen: 1.19
 
