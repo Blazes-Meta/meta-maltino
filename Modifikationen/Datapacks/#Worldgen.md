@@ -9,3 +9,4 @@ Datapack  | Version | Inhalt | Autor | Kompatiblität
 [Continents](https://www.planetminecraft.com/data-pack/continents/) | 1.19 - 1.19.3 (10) | Ordnet die Biome der Oberwelt in Kontinenten an | Stardust Labs | Kompatibel mit allen Stardust Labs-Datapacks sowie den meisten anderen Mods
 [Increase World Height](https://www.planetminecraft.com/data-pack/increase-world-height-to-1024-blocks-1-19-1/) | 1.19 - 1.19.3 (10) | Erhöht die maximale Bauhöhe (anpassbar) | The_funkuchen |
 [Villages Overhauled](https://www.planetminecraft.com/data-pack/villages-overhauled/) | 1.19 - 1.19.3 (10) | Verbessert Dörfer erheblich | kierheyl |
+[New Desert Temples](https://www.planetminecraft.com/data-pack/new-desert-temples-better-structures/) | 1.18 - 1.19 | Verbessert Wüsten-Pyramiden erheblich | TBC_Miles |
