@@ -35,4 +35,4 @@ in Version `2.1.1`
 
 ## Planung
 
-* 
+* Spielstart in Game Launch umbenennen
