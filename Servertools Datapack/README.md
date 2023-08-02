@@ -37,3 +37,4 @@ in Version `2.1.1`
 
 * Spielstart in Game Launch umbenennen
 * Namenumgebung der Infobar ändern
+* Typo bei AntiTNT zündung beheben
