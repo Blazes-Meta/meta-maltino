@@ -9,3 +9,4 @@ Servertools Datapack ist ein Datenpaket, das einfache Funktionen zur Servermoder
 
 ## Changelog (2.1.2+)
 * Möglichkeit, die Level in die Sidebar zu setzen
+* "Level" zum Anzeigenamen des Levelscoreboards hinzugefügt
