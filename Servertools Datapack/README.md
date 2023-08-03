@@ -7,5 +7,5 @@ Servertools Datapack ist ein Datenpaket, das einfache Funktionen zur Servermoder
 ## Planung
 * Möglichkeit, die Level in die Sidebar zu setzen
 
-## Changelog (1.2.2+)
+## Changelog (2.1.2+)
 *
