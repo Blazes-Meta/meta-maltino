@@ -5,5 +5,7 @@ Servertools Datapack ist ein Datenpaket, das einfache Funktionen zur Servermoder
 ## [Runterladen](https://www.curseforge.com/minecraft/texture-packs/servertools/files)
 
 ## Planung
-
 * Möglichkeit, die Level in die Sidebar zu setzen
+
+## Changelog (1.2.2+)
+*
