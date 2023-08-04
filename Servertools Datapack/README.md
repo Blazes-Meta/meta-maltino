@@ -7,8 +7,5 @@ Servertools Datapack ist ein Datenpaket, das einfache Funktionen zur Servermoder
 ## Planung
 * 
 
-## Changelog (2.1.2+)
-* Möglichkeit, die Level oder Tode in die Sidebar zu setzen
-* "Level" zum Anzeigenamen des Levelscoreboards hinzugefügt
-* "Tode" zum Anzeigenamen des Todescoreboards hinzugefügt
-* CAM Rang hinzugefügt
+## Changelog ab 2.1.3
+*
