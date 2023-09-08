@@ -3,5 +3,5 @@ Dieses Repository enthält Daten vergangener Minecraft-Projekte, sowie default K
 
 ## DEFAULT
 > [!WARNING]\
-> Folgende Dateien müssen noch von Hand fertig konfiguriert werden:
+> Folgende Dateien müssen noch von Hand fertig konfiguriert werden:  
 > `server.properties`
