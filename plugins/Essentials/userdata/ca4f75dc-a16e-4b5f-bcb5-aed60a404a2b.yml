@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.90.214.121
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1692982903663
+  login: 1692980996595
+money: '0'
+last-account-name: GuardianofHyrul
+logoutlocation:
+  world: f2a2aa20-71f9-4770-acdf-f1d14c655c21
+  world-name: '25_08'
+  x: 38.50480390476438
+  y: 81.0
+  z: -161.5843768398653
+  yaw: 169.1181640625
+  pitch: 9.176957130432129
