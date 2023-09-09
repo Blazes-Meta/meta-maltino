@@ -21,7 +21,7 @@ settings:
   log-villager-deaths: true
   log-named-deaths: true
 messages:
-  whitelist: Du stehst nicht auf der Gästeliste. Melde dich bei der Serverleitung
+  whitelist: Du stehst nicht auf der Gästeliste. Bitte wende dich an die Serverleitung
   unknown-command: Unbekannter Befehl
   server-full: Der Server ist voll
   outdated-client: Veraltete Version! Bitte nutze {0}
