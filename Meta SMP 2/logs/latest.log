@@ -1,0 +1,33 @@
+[09:24:54] [Server thread/INFO]: Stopping the server
+[09:24:54] [Server thread/INFO]: Stopping server
+[09:24:54] [Server thread/INFO]: [EnhancedEnchants] Disabling EnhancedEnchants v1.6.1
+[09:24:54] [Server thread/INFO]: [EnhancedEnchants] made by Kars
+[09:24:54] [Server thread/INFO]: [GSit] Disabling GSit v1.4.10
+[09:24:54] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[09:24:54] [Server thread/INFO]: [CustomWings] Disabling CustomWings v4.3.0
+[09:24:54] [Server thread/INFO]: {CustomWings} CustomWings has been disabled
+[09:24:54] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.8.1
+[09:24:54] [Server thread/INFO]: Saving players
+[09:24:54] [Server thread/INFO]: Saving worlds
+[09:24:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[25_08]'/minecraft:overworld
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '25_08'
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '25_08'
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '25_08'
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 55 entity chunks, 1 poi chunks in world '25_08' in 0.02s
+[09:24:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (25_08): All chunks are saved
+[09:24:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[25_08_nether]'/minecraft:the_nether
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '25_08_nether'
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '25_08_nether'
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '25_08_nether'
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Saved 46 block chunks, 49 entity chunks, 0 poi chunks in world '25_08_nether' in 0.06s
+[09:24:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:24:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[25_08_the_end]'/minecraft:the_end
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '25_08_the_end'
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '25_08_the_end'
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '25_08_the_end'
+[09:24:54] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 45 entity chunks, 0 poi chunks in world '25_08_the_end' in 0.01s
+[09:24:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:24:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:24:54] [Server thread/INFO]: Flushing Chunk IO
+[09:24:54] [Server thread/INFO]: Closing Thread Pool
+[09:24:54] [Server thread/INFO]: Closing Server
