@@ -1,0 +1,14 @@
+# Teams & Mitgliederliste
+:Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line:
+> :Allowed: Beigetreten
+> :Member: Beigetreten, Spielername unbekannt
+> :grey_question: Angefragt
+> :Forbidden: Spiel quitiert/Abgesagt
+> 
+> Bei eingerückten Spielern handelt es sich um autonome Gruppen, die die globalen Ansichten des Teams teilen
+:Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line::Line:
+
+## Team
+:Hm: Wer?
+
+> Das sind **WIE VIELE? Spieler** .-.
