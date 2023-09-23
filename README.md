@@ -1,5 +1,5 @@
-# Meta & Maltino Minecraft Projekte Github
-Dieses Repository enthält Daten vergangener Minecraft-Projekte, sowie default Konfigurationen, die so weitesgehend weiterverwendet werden können
+# Meta & Maltino Minecraft Project GitHub
+This repository contains data from past Minecraft projects, as well as default configurations, which can be reused to a large extent.
 
 ## DEFAULT
 > [!WARNING]\
