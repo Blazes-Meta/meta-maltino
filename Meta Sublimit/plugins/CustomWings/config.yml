@@ -1,0 +1,87 @@
+#-------------------------------------------------#
+#                 CustomWings                     #
+#                 Main config                     #
+#-------------------------------------------------#
+
+
+# To configure wings or add you own wings, edit or add the files in the 'wings' folder.
+
+# The main command of the plugin, you will have to restart your server when changing this.
+commandName: "customwings"
+commandAliases:
+  - "wings"
+  - "cw"
+  - "w"
+
+# Disable the check for new versions of this plugin on spigot at startup.
+disableUpdateCheck: false
+
+# The distance (in blocks) players have to be within to see each others wings.
+wingViewDistance: 30
+
+# Maximum pitch at which wings will render for the player to allow them to look down without obstructing vision.
+# Value can range from 90 to -90, where 90 is looking straight down and -90 is looking straight up (same as in minecraft's F3 info screen).
+wingMaxPitch: 70
+
+# Should wings be hidden when player has invisibility effect.
+invisibilityPotionHidesWing: true
+
+# Settings for the wing selector menu.
+# Remeber slot numbers start at 0.
+wingSelectMenu:
+  name: "&c&lWing selector"
+  size: 54 # Must be a multiple of 9.
+  pages: 2
+
+  # Item player can use to not equip any wing.
+  removeWingItem:
+    name: "&4Remove Wing"
+    material: BARRIER
+    slot: 53
+
+  # Item players can use to toggle if they want to see their own wing
+  showWingToggleItem:
+    nameON: "&4Hide wing"
+    materialON: GREEN_STAINED_GLASS
+    nameOFF: "&5Show wing"
+    materialOFF: RED_STAINED_GLASS
+    slot: 51
+
+  # Item players can use to toggle if they want to see other player wings.
+  hideWingsToggleItem:
+    nameON: "&5Show player wings"
+    materialON: RED_STAINED_GLASS
+    nameOFF: "&4Hide player wings"
+    materialOFF: GREEN_STAINED_GLASS
+    slot: 52
+
+  # If pages is bigger then 1, it will show the navigation items.
+  navigationItem:
+    next:
+      name: "&9Next Page"
+      material: FEATHER
+      slot: 50
+    previous:
+      name: "&9Previous Page"
+      material: FEATHER
+      slot: 48
+
+  # Allow player to hide wings in the gui that they own/don't own.
+  filterItem:
+    enable: true
+    slot: 45
+    noFilter:
+      name: "&aNo filter"
+      material: BARRIER
+      lore:
+        - "&7Show all wings"
+    ownedWings:
+      name: "&aOwned wings"
+      material: LIME_WOOL
+      lore:
+        - "&7Show only the wings you can use"
+    unownedWings:
+      name: "&cUnowned wings"
+      material: RED_WOOL
+      lore:
+        - "&7Show only the wings you cannot use"

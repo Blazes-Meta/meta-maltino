@@ -1,0 +1,49 @@
+[05:12:14] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:12:17] [ServerMain/INFO]: Loaded 7 recipes
+[05:12:17] [ServerMain/ERROR]: Failed to load function servertools:setup/scoreboards
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown display slot 'belowName'
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown display slot 'belowName'
+	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:119) ~[?:?]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:80) ~[?:?]
+	... 4 more
+[05:12:17] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[05:12:17] [Server thread/INFO]: Loading properties
+[05:12:17] [Server thread/INFO]: This server is running Paper version git-Paper-217 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: cfe311d)
+[05:12:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:12:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:12:18] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[05:12:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 16 worker threads, and gen parallelism of 16 threads
+[05:12:18] [Server thread/INFO]: Default game type: SURVIVAL
+[05:12:18] [Server thread/INFO]: Generating keypair
+[05:12:18] [Server thread/INFO]: Starting Minecraft server on 161.97.136.225:26165
+[05:12:18] [Server thread/INFO]: Using epoll channel type
+[05:12:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:12:18] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:12:18] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.8.1
+[05:12:18] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.5.0
+[05:12:18] [Server thread/INFO]: [EnhancedEnchants] Loading server plugin EnhancedEnchants v1.6.1
+[05:12:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:12:18] [Server thread/INFO]: Preparing level "09_10"
+[05:12:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:12:19] [Server thread/INFO]: Time elapsed: 232 ms
+[05:12:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:12:19] [Server thread/INFO]: Time elapsed: 22 ms
+[05:12:19] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.8.1
+[05:12:20] [Server thread/INFO]: [GSit] Enabling GSit v1.5.0
+[05:12:20] [Server thread/INFO]: [GSit] Das Plugin wurde erfolgreich aktiviert.
+[05:12:20] [Server thread/INFO]: [EnhancedEnchants] Enabling EnhancedEnchants v1.6.1
+[05:12:20] [Server thread/INFO]: [EnhancedEnchants] [Warning] Enchant limit in config piercing is below the vanilla limit.
+[05:12:20] [Server thread/INFO]: Starting GS4 status listener
+[05:12:20] [Server thread/INFO]: Thread Query Listener started
+[05:12:20] [Query Listener #1/INFO]: Query running on 161.97.136.225:26165
+[05:12:20] [Server thread/INFO]: Running delayed init tasks
+[05:12:20] [Server thread/INFO]: Done (3.215s)! For help, type "help"
+[05:12:20] [Server thread/INFO]: Timings Reset
