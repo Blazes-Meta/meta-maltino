@@ -64,10 +64,10 @@ Options:
   PlayerSit:
     
     # Defines whether a player can right-click to sit on another player
-    allow-sit: true
+    allow-sit: false
     
     # Defines whether a player can right-click to sit on an NPC
-    allow-sit-npc: true
+    allow-sit-npc: false
     
     # Defines the maximum number of players that can be stacked (0 means unlimited)
     max-stack: 0
@@ -121,7 +121,7 @@ Options:
     
     # Defines whether a player can double-sneak in a short amount of time to start crawling
     # In order for it to work, you must be looking straight down
-    double-sneak: false
+    double-sneak: true
   
   
   
