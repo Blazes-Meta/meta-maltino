@@ -1,5 +1,5 @@
 command-block-overrides: []
-ignore-vanilla-permissions: false
+ignore-vanilla-permissions: true
 aliases:
   sleeppls:
   - function servertools:broadcast/sleep
