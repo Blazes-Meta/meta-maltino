@@ -3,3 +3,7 @@ ignore-vanilla-permissions: false
 aliases:
   sleeppls:
   - function servertools:broadcast/sleep
+#  broadcast restart:
+#  - function servertools:broadcast/restart
+#  broadcast stop:
+#  - function servertools:broadcast/stop
