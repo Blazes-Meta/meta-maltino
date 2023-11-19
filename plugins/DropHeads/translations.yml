@@ -5,15 +5,15 @@
 use-translation-fallbacks: true
 
 # The messages used to announce beheading
-message-beheaded: '&6${VICTIM}&r was decapitated'
-message-beheaded-by-entity: '&6${VICTIM}&r was decapitated by &6${KILLER}&r'
-message-beheaded-by-entity-with-item: '&6${VICTIM}&r was decapitated by &6${KILLER}&r'
-message-beheaded-by-entity-with-item-named: '&6${KILLER}&r decapitated &6${VICTIM}&r using &7${ITEM}&r'
+message-beheaded: '&6${VICTIM}&r wurde enthauptet'
+message-beheaded-by-entity: '&6${VICTIM}&r wurde von &6${KILLER}&r enthauptet'
+message-beheaded-by-entity-with-item: '&6${VICTIM}&r wurde von &6${KILLER}&r enthauptet'
+message-beheaded-by-entity-with-item-named: '&6${VICTIM}&r wurde von &6${KILLER}&r mit &7${ITEM}&r enthauptet'
 
 head-type-names:
-  head: "Head"
-  skull: "Skull"
-  toe: "Toe"
+  head: "Kopf"
+  skull: "Schädel"
+  toe: "Zehe"
 
 head-type-in-lore:
   player: "player:"
