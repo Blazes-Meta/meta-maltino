@@ -1,3 +1,9 @@
+#-------------------------------------------------#
+#        Meta-Maltino-Minecraftprojekt            #
+#      plugins/Essentials/config.yml preset       #
+#-------------------------------------------------#
+
+
 ############################################################
 # +------------------------------------------------------+ #
 # |                       Notes                          | #
@@ -24,7 +30,7 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Users with essentials.nick.hideprefix will not be prefixed with the character(s)
@@ -51,7 +57,7 @@ hide-displayname-in-vanish: true
 change-displayname: true
 
 # This option will cause Essentials to show players' displaynames instead of usernames when tab completing Essentials commands.
-change-tab-complete-name: false
+change-tab-complete-name: true
 
 # When this option is enabled, the (tab) player list will be updated with the displayname.
 # The value of change-displayname (above) has to be true.
@@ -538,8 +544,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "none"
-custom-quit-message: "none"
+custom-join-message: "§a>> §f{USERNAME}"
+custom-quit-message: "§c<< §f{USERNAME}"
 
 # You can set a custom join message for users who join with a new username here.
 # This message will only be used if a user has joined before and have since changed their username.
@@ -555,7 +561,7 @@ custom-quit-message: "none"
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-new-username-message: "none"
+custom-new-username-message: "§a>> §f{OLDUSERNAME} ist hier mit einem neuen Namen und heißt jetzt {USERNAME}"
 
 # Should Essentials override the vanilla "Server Full" message with its own from the language file?
 # Set to false to keep the vanilla message.
@@ -809,7 +815,7 @@ command-costs:
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document, 
 # such as accented letters, you MUST save the file as UTF-8, not ANSI.
-currency-symbol: '$'
+currency-symbol: '€'
 
 # Enable this to make the currency symbol appear at the end of the amount rather than at the start.
 # For example, the euro symbol typically appears after the current amount.

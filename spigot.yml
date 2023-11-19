@@ -1,3 +1,8 @@
+#-------------------------------------------------#
+#        Meta-Maltino-Minecraftprojekt            #
+#               spigot.yml preset                 #
+#-------------------------------------------------#
+
 settings:
   debug: false
   timeout-time: 60
