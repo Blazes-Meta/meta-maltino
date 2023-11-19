@@ -2,8 +2,8 @@ command-block-overrides: []
 ignore-vanilla-permissions: false
 aliases:
   sleeppls:
-  - function servertools:broadcast/sleep
+  - function st:broadcast/sleep
 #  broadcast restart:
-#  - function servertools:broadcast/restart
+#  - function st:broadcast/restart
 #  broadcast stop:
-#  - function servertools:broadcast/stop
+#  - function st:broadcast/stop
