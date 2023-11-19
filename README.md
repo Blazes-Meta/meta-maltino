@@ -1,5 +1,5 @@
 # Meta & Maltino Minecraft Project GitHub
-This repository contains default configurations, which can be reused to a large extent.
+This repository contains the default configuration for Meta & Maltino Minecraft servers
 
 ## DEFAULT
 > [!WARNING]\
