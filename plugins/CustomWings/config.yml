@@ -1,6 +1,6 @@
 #-------------------------------------------------#
-#                 CustomWings                     #
-#                 Main config                     #
+#        Meta-Maltino-Minecraftprojekt            #
+#     plugins/CustomWings/config.yml preset       #
 #-------------------------------------------------#
 
 
@@ -10,8 +10,6 @@
 commandName: "customwings"
 commandAliases:
   - "wings"
-  - "cw"
-  - "w"
 
 # Disable the check for new versions of this plugin on spigot at startup.
 disableUpdateCheck: false
@@ -29,40 +27,40 @@ invisibilityPotionHidesWing: true
 # Settings for the wing selector menu.
 # Remeber slot numbers start at 0.
 wingSelectMenu:
-  name: "&c&lWing selector"
+  name: "&c&lFlügel auswählen"
   size: 54 # Must be a multiple of 9.
-  pages: 2
+  pages: 1
 
   # Item player can use to not equip any wing.
   removeWingItem:
-    name: "&4Remove Wing"
+    name: "&4Flügel entfernen"
     material: BARRIER
     slot: 53
 
   # Item players can use to toggle if they want to see their own wing
   showWingToggleItem:
-    nameON: "&4Hide wing"
+    nameON: "&4Flügel verstecken"
     materialON: GREEN_STAINED_GLASS
-    nameOFF: "&5Show wing"
+    nameOFF: "&5Flügel zeigen"
     materialOFF: RED_STAINED_GLASS
     slot: 51
 
   # Item players can use to toggle if they want to see other player wings.
   hideWingsToggleItem:
-    nameON: "&5Show player wings"
+    nameON: "&4Flügel anderer Spieler anzeigen"
     materialON: RED_STAINED_GLASS
-    nameOFF: "&4Hide player wings"
+    nameOFF: "&4Flügel anderer Spieler verstecken"
     materialOFF: GREEN_STAINED_GLASS
     slot: 52
 
   # If pages is bigger then 1, it will show the navigation items.
   navigationItem:
     next:
-      name: "&9Next Page"
+      name: "&9Nächste Seite"
       material: FEATHER
       slot: 50
     previous:
-      name: "&9Previous Page"
+      name: "&9Vorherige Seite"
       material: FEATHER
       slot: 48
 
@@ -71,17 +69,17 @@ wingSelectMenu:
     enable: true
     slot: 45
     noFilter:
-      name: "&aNo filter"
+      name: "&aKein Filter"
       material: BARRIER
       lore:
-        - "&7Show all wings"
+        - "&7Zeigt alle Flügel"
     ownedWings:
-      name: "&aOwned wings"
+      name: "&aIm Besitz"
       material: LIME_WOOL
       lore:
-        - "&7Show only the wings you can use"
+        - "&7Zeigt nur Flügel, die du besitzt"
     unownedWings:
-      name: "&cUnowned wings"
+      name: "&cNicht im Besitz"
       material: RED_WOOL
       lore:
-        - "&7Show only the wings you cannot use"
+        - "&7Zeigt nur Flügel, die du nicht besitzt"
