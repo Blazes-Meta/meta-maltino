@@ -4,4 +4,4 @@ This repository contains the default configuration for Meta & Maltino Minecraft 
 ## DEFAULT
 > [!WARNING]\
 > Folgende Dateien müssen noch von Hand fertig konfiguriert werden:  
-> `server.properties`
+> `server.properties`, `plugins/<Plugin>.jar`
