@@ -10,8 +10,12 @@ aliases:
 # Servertools Datapack
   sleeppls:
   - function st:broadcast/sleep
+  broadcast:stop:
+  - function st:broadcast/stop
+  broadcast:restart:
+  - function st:broadcast/restart
   
-# Bei Verwendung mit EssentialsX
+# Bei Verwendung mit EssentialsX: SIEHE https://github.com/Blazes-Meta/meta-maltino-minecraft-server/issues/7
 #  msg:
 #  - minecraft:msg $$1 $$2
 #  teammsg:
