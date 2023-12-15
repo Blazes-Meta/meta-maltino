@@ -2,7 +2,7 @@
 This repository contains the default configuration for Meta & Maltino Minecraft servers  
 Everything is written in German since we are a German community
 
-## DEFAULT
+## Verwendung
 > [!WARNING]\
 > Folgende Aktionen müssen beim Aufsetzen eines Servers beachtet werden:  
 > * Konfiguration von `server.properties`
