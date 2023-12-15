@@ -6,5 +6,5 @@ Everything is written in German since we are a German community
 > [!WARNING]\
 > Folgende Aktionen müssen beim Aufsetzen eines Servers beachtet werden:  
 > * Konfiguration von `server.properties`
-> * Plugindateien müssen in `/plugins/` abgelegt werden
+> * [Plugindateien](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki/Plugins,-Datapacks) müssen in `/plugins/` abgelegt werden
 > * siehe [Welt erstellen](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki/Welt-erstellen)
