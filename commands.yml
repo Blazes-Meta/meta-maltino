@@ -1,14 +1,73 @@
-#-------------------------------------------------#
+# -------------------------------------------------#
 #        Meta-Maltino-Minecraftprojekt            #
 #              commands.yml preset                #
-#-------------------------------------------------#
+# -------------------------------------------------#
 
 command-block-overrides: []
 ignore-vanilla-permissions: false
 aliases:
+
+# Servertools Datapack
   sleeppls:
   - function st:broadcast/sleep
-#  broadcast restart:
-#  - function st:broadcast/restart
-#  broadcast stop:
-#  - function st:broadcast/stop
+  
+# Entfernung des Namensraums für Standardbefehle für nicht-Operatoren
+  # Bei Solchen Aliassen geht die Syntaxprüfung verloren. Der Fehler wird erst von der Konsole bzw Essentials zurückgegeben.
+  msg:
+  - minecraft:msg $$1 $$2
+  teammsg:
+  - minecraft:teammsg $$1
+  tell:
+  - minecraft:tell $$1 $$2
+
+# Entregistrierungen
+  bukkit:?:
+  - []
+  bukkit:about:
+  - []
+  bukkit:help:
+  - []
+  bukkit:pl:
+  - []
+  bukkit:plugins:
+  - []
+  bukkit:ver:
+  - []
+  bukkit:version:
+  - []
+  callback:
+  - []
+  emote:
+  - []
+  gemote:
+  - []
+  gbellyflop:
+  - []
+  gcrawl:
+  - []
+  glay:
+  - []
+  gsit:bellyflop:
+  - []
+  gsit:crawl:
+  - []
+  gsit:emote:
+  - []
+  gsit:gbellyflop:
+  - []
+  gsit:gcrawl:
+  - []
+  gsit:gemote:
+  - []
+  gsit:glay:
+  - []
+  gsit:gsit:
+  - []
+  gsit:gspin:
+  - []
+  gsit:lay:
+  - []
+  gsit:spin:
+  - []
+  gspin:
+  - []
