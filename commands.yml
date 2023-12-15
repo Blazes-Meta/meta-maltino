@@ -11,8 +11,7 @@ aliases:
   sleeppls:
   - function st:broadcast/sleep
   
-# Entfernung des Namensraums für Standardbefehle für nicht-Operatoren
-  # Bei Solchen Aliassen geht die Syntaxprüfung verloren. Der Fehler wird erst von der Konsole bzw Essentials zurückgegeben.
+# Bei Verwendung mit EssentialsX
   msg:
   - minecraft:msg $$1 $$2
   teammsg:
@@ -20,7 +19,7 @@ aliases:
   tell:
   - minecraft:tell $$1 $$2
 
-# Entregistrierungen
+# Entregistrierungen von Ungebracuhtem und Befehlen mit Namensraum
   bukkit:?:
   - []
   bukkit:about:
@@ -39,13 +38,15 @@ aliases:
   - []
   emote:
   - []
-  gemote:
-  - []
   gbellyflop:
   - []
   gcrawl:
   - []
+  gemote:
+  - []
   glay:
+  - []
+  gsit:
   - []
   gsit:bellyflop:
   - []
@@ -70,4 +71,36 @@ aliases:
   gsit:spin:
   - []
   gspin:
+  - []
+  minecraft:help:
+  - []
+  minecraft:me:
+  - []
+  minecraft:msg:
+  - []
+  minecraft:teammsg:
+  - []
+  minecraft:tell:
+  - []
+  minecraft:tm:
+  - []
+  minecraft:trigger:
+  - []
+  minecraft:w:
+  - []
+  paper:fallback:
+  - []
+  pl:
+  - []
+  seen:customwings:
+  - []
+  seen:wings:
+  - []
+  tm:
+  - []
+  ver:
+  - []
+  w:
+  - []
+  ?:
   - []
