@@ -12,12 +12,12 @@ aliases:
   - function st:broadcast/sleep
   
 # Bei Verwendung mit EssentialsX
-  msg:
-  - minecraft:msg $$1 $$2
-  teammsg:
-  - minecraft:teammsg $$1
-  tell:
-  - minecraft:tell $$1 $$2
+#  msg:
+#  - minecraft:msg $$1 $$2
+#  teammsg:
+#  - minecraft:teammsg $$1
+#  tell:
+#  - minecraft:tell $$1 $$2
 
 # Entregistrierungen von Ungebracuhtem und Befehlen mit Namensraum
   bukkit:?:
