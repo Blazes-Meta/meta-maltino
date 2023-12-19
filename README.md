@@ -2,8 +2,8 @@
 This repository contains the default configuration for Meta & Maltino Minecraft servers  
 Everything is written in German since we are a German community
 
-> [!INFO]\
-> 
+> [!NOTE]\
+> Nutze auch das Wiki
 
 
 ## Verwendung
