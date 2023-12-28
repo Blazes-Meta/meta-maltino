@@ -14,5 +14,5 @@ Everything is written in German since we are a German community
 > * [Plugindateien](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki/Plugins,-Datapacks) müssen in `/plugins/` abgelegt werden
 > * siehe [Welt erstellen](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki/Welt-erstellen)
 > ### Raspberry Pi
-> * `/.RASPBERRY` ins Hauptverzeichnis kopieren
+> * `/.RASPBERRY/` ins Hauptverzeichnis kopieren
 >   * Konfiguration von `start.sh`
