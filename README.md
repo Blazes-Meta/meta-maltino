@@ -7,7 +7,7 @@ Everything is written in German since we are a German community
 
 
 ## Verwendung
-> [!WARNING]\
+> [!IMPORTANT]\
 > Folgende Aktionen müssen beim Aufsetzen eines Servers beachtet werden:  
 > * Der Server basiert auf Paper
 > * Konfiguration von `server.properties`
