@@ -6,8 +6,8 @@
 command-block-overrides: []
 ignore-vanilla-permissions: false
 aliases:
-
-# Servertools Datapack
+  
+  # Servertools Datapack
   sleeppls:
   - function st:broadcast/sleep
   broadcast:stop:
@@ -15,15 +15,17 @@ aliases:
   broadcast:restart:
   - function st:broadcast/restart
   
-# Bei Verwendung mit EssentialsX: SIEHE https://github.com/Blazes-Meta/meta-maltino-minecraft-server/issues/7
-#  msg:
-#  - minecraft:msg $$1 $$2
-#  teammsg:
-#  - minecraft:teammsg $$1
-#  tell:
-#  - minecraft:tell $$1 $$2
+  # Bei Verwendung mit EssentialsX: SIEHE https://github.com/Blazes-Meta/meta-maltino-minecraft-server/issues/7
+  #  msg:
+  #  - minecraft:msg $$1 $$2
+  #  teammsg:
+  #  - minecraft:teammsg $$1
+  #  tell:
+  #  - minecraft:tell $$1 $$2
 
-# Entregistrierungen von Ungebracuhtem und Befehlen mit Namensraum
+  # Entregistrierungen von Ungebracuhtem und Befehlen mit Namensraum
+  about:
+  - []
   bukkit:?:
   - []
   bukkit:about:
@@ -41,6 +43,16 @@ aliases:
   callback:
   - []
   customwings:
+  - []
+  dynmapexp:
+  - []
+  dynmap:dmap:
+  - []
+  dynmap:dmarker:
+  - []
+  dynmap:dynmap:
+  - []
+  dynmap:dynmapexp:
   - []
   emote:
   - []
@@ -94,7 +106,7 @@ aliases:
   - []
   minecraft:w:
   - []
-  paper:fallback:
+  paper:callback:
   - []
   pl:
   - []
@@ -108,5 +120,5 @@ aliases:
   - []
   w:
   - []
-  ?:
+  '?':
   - []
