@@ -8,6 +8,4 @@ JAR_DATEI="SERVER DATEI"
 
 # Starte den Server in einem screen-Fenster
 screen -S minecraft-server -dm java -Xmx${MAX_RAM}M -Xms512M -jar ${JAR_DATEI} nogui
-
-# Gib eine Meldung aus, dass der Server gestartet wurde
-echo "Minecraft-Server gestartet. Verwende 'screen -r minecraft-server' zum Anzeigen der Konsole."
+screen -r minecraft-server
