@@ -1,42 +1,39 @@
 worlds:
   - name: world
-    title: Welt
+    title: "Welt"
     template: normal
     maps:
       - class: org.dynmap.hdmap.HDMap
         name: map
         title: "Karte"
-        perspective: iso_SE_60_vlowres
-        mapzoomin: 2
+        perspective: iso_S_90_vlowres
       - class: org.dynmap.hdmap.HDMap
         name: surface
         title: "Oberfläche"
-        perspective: iso_S_90_vlowres
-  - nether: nether
-    title: Nether
+        perspective: iso_SE_60_vmidres
+  - name: nether
+    title: "Nether"
     template: nether
     maps:
       - class: org.dynmap.hdmap.HDMap
         name: nether_map
         title: "Karte"
         perspective: iso_S_90_vlowres
-        mapzoomin: 2
       - class: org.dynmap.hdmap.HDMap
         name: nether
         title: "Oberfläche"
         perspective: iso_SE_60_vlowres
-  - the_end:
-    title: Ende
+  - name: the_end
+    title: "Ende"
     template: the_end
     maps:
-  - class: org.dynmap.hdmap.HDMap
-    name: the_end_map
-    title: "Karte"
-    perspective: iso_S_90_vlowres
-    mapzoomin: 2
-  - class: org.dynmap.hdmap.HDMap
-    name: the_end
-    title: "Oberfläche"
-    perspective: iso_SE_60_vlowres
-    mapzoomin: 2
-            
+      - class: org.dynmap.hdmap.HDMap
+        name: the_end_map
+        title: "Karte"
+        perspective: iso_S_90_vlowres
+        lighting: brightnight
+      - class: org.dynmap.hdmap.HDMap
+        name: the_end
+        title: "Oberfläche"
+        perspective: iso_SE_60_vlowres
+        lighting: brightnight
