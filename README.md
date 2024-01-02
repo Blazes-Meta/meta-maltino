@@ -13,6 +13,6 @@ Everything is written in German since we are a German community
 > * Konfiguration von `server.properties`
 > * [Plugindateien](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki/Plugins,-Datapacks) müssen in `/plugins/` abgelegt werden
 > * siehe [Welt erstellen](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki/Welt-erstellen)
-> ### Raspberry Pi
-> * `/.RASPBERRY/` ins Hauptverzeichnis kopieren
->   * Konfiguration von `start.sh`
+> ### Localhost
+> * `/.LOCALHOST/**` ins Hauptverzeichnis kopieren
+>   * Konfiguration von `start.*`
