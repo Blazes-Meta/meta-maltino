@@ -11,29 +11,29 @@ worlds:
         name: surface
         title: "Oberfläche"
         perspective: iso_SE_60_medres
-  - name: nether
+  - name: world_nether
     template: nether
     title: "Nether"
     maps:
       - class: org.dynmap.hdmap.HDMap
-        name: nether_map
+        name: map
         title: "Karte"
         perspective: iso_S_90_vlowres
       - class: org.dynmap.hdmap.HDMap
-        name: nether
+        name: surface
         title: "Oberfläche"
         perspective: iso_SE_60_lowres
-  - name: the_end
+  - name: world_the_end
     template: the_end
     title: "Ende"
     maps:
       - class: org.dynmap.hdmap.HDMap
-        name: the_end_map
+        name: map
         title: "Karte"
         perspective: iso_S_90_lowres
         lighting: brightnight
       - class: org.dynmap.hdmap.HDMap
-        name: the_end
+        name: surface
         title: "Oberfläche"
         perspective: iso_SE_60_lowres
         lighting: brightnight

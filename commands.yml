@@ -15,6 +15,13 @@ aliases:
   broadcast:restart:
   - function st:broadcast/restart
   
+  mapupdate:
+  - dynmap updaterender
+  maprenderarea:
+  - dynmap radiusrender 1000 map
+  - dynmap radiusrender 1000 surface
+  
+  
   # Bei Verwendung mit EssentialsX: SIEHE https://github.com/Blazes-Meta/meta-maltino-minecraft-server/issues/7
   #  msg:
   #  - minecraft:msg $$1 $$2
@@ -23,7 +30,7 @@ aliases:
   #  tell:
   #  - minecraft:tell $$1 $$2
 
-  # Entregistrierungen von Ungebracuhtem und Befehlen mit Namensraum
+    # Entregistrierungen von Ungebracuhtem und Befehlen mit Namensraum
   about:
   - []
   bukkit:?:
