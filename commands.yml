@@ -20,7 +20,9 @@ aliases:
   - dynmap updaterender
   maprenderarea:
   - dynmap radiusrender 1000
-
+  cancelrender:
+  - dynmap cancelrender
+  
   # Entregistrierungen von Ungebrauchtem und Befehlen mit Namensraum
   about:
   - []
@@ -94,8 +96,10 @@ aliases:
   - []
   gspin:
   - []
-  #lp:
-  #- []
+  jfr:
+  - []
+  # lp:
+  # - []
   luckperms:
   - []
   luckperms:lp:
@@ -160,7 +164,7 @@ aliases:
   - []
   '?':
   - []
-
+  
   # Entregistrierungen von Essentials
   emsg:
   - []

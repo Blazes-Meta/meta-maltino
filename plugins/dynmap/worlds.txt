@@ -10,6 +10,7 @@ worlds:
         perspective: iso_S_90_lowres
         lighting: shadows
         mapzoomin: 1
+        background: "#d6be96"
       #- class: org.dynmap.hdmap.HDMap
       #  name: test
       #  title: "Oberfläche"
@@ -22,6 +23,7 @@ worlds:
         perspective: iso_SE_30_medres
         lighting: shadows
         mapzoomin: 1
+        background: "#d6be96"
       #- class: org.dynmap.hdmap.HDMap
       #  name: surface_nw
       #  title: "Luftbild (SO)"
@@ -50,9 +52,11 @@ worlds:
         name: map
         title: "Karte"
         perspective: iso_S_90_lowres
-        lighting: brightnight
+        lighting: vikos_end
+        background: "#170817"
       - class: org.dynmap.hdmap.HDMap
         name: surface
         title: "Oberfläche"
-        perspective: iso_SE_60_lowres
-        lighting: brightnight
+        perspective: iso_SE_30_lowres
+        lighting: vikos_end
+        background: "#170817"
