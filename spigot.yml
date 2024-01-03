@@ -1,7 +1,14 @@
-#-------------------------------------------------#
-#        Meta-Maltino-Minecraftprojekt            #
-#               spigot.yml preset                 #
-#-------------------------------------------------#
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+#
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the Discord or drop by our forums and leave a post.
+#
+# Discord: https://www.spigotmc.org/go/discord
+# Forums: http://www.spigotmc.org/
 
 settings:
   debug: false
@@ -27,7 +34,7 @@ settings:
   log-named-deaths: true
 messages:
   whitelist: Du stehst nicht auf der Gästeliste. Bitte wende dich an die Serverleitung
-  unknown-command: Unbekannter Befehl
+  unknown-command: §cDer Befehl ist entweder nicht registriert, oder dir fehlt die Berechtigung
   server-full: Der Server ist voll
   outdated-client: Veraltete Version! Bitte nutze {0}
   outdated-server: Veraltete Version! Bitte nutze {0}

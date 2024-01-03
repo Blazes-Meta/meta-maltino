@@ -1,4 +1,4 @@
-name: admin
+name: operator
 permissions:
 - essentials.gamemode.*
 - dynmap.*
