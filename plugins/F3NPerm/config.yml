@@ -20,7 +20,7 @@ use-protocollib: true
 op-permission-level: 4
 
 # If this is set to true, the plugin will check for the "f3nperm.use" permission.
-enable-permission-check: false
+enable-permission-check: true
 
 # List of plugins this should hook into. A hook is only actually used if
 # the plugin it's trying to hook into can be found. By default, all available
