@@ -19,17 +19,8 @@ aliases:
   - dynmap updaterender
   maprenderarea:
   - dynmap radiusrender 1000
-  
-  
-  # Bei Verwendung mit EssentialsX: SIEHE https://github.com/Blazes-Meta/meta-maltino-minecraft-server/issues/7
-  #  msg:
-  #  - minecraft:msg $$1 $$2
-  #  teammsg:
-  #  - minecraft:teammsg $$1
-  #  tell:
-  #  - minecraft:tell $$1 $$2
 
-    # Entregistrierungen von Ungebracuhtem und Befehlen mit Namensraum
+  # Entregistrierungen von Ungebracuhtem und Befehlen mit Namensraum
   about:
   - []
   bukkit:?:
@@ -120,11 +111,55 @@ aliases:
   - []
   seen:wings:
   - []
+  t:
+  - []
   tm:
   - []
   ver:
   - []
   w:
   - []
+  whisper:
+  - []
   '?':
+  - []
+
+  # Entregistrierungen von Essentials
+  emsg:
+  - []
+  epm:
+  - []
+  er:
+  - []
+  ereply:
+  - []
+  essentials:emsg:
+  - []
+  essentials:epm:
+  - []
+  essentials:er:
+  - []
+  essentials:ereply:
+  - []
+  essentials:etell:
+  - []
+  essentials:ewhisper:
+  - []
+  essentials:m:
+  - []
+  essentials:msg:
+  - []
+  essentials:pm:
+  - []
+  essentials:r:
+  - []
+  essentials:reply:
+  - []
+  essentials:t:
+  - []
+  essentials:tell:
+  - []
+  essentials:w:
+  - []
+  essentials:whisper:
   - []
