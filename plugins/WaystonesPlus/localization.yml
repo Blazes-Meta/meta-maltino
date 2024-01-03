@@ -1,0 +1,59 @@
+version-warning: "&c[ WaystonesPlus ] This plugin only supports 1.19.4 or higher versions!"
+
+waystone-type-nonexistent: "&cEine Wegsteinvariante mit diesem Namen gibt es nicht!!"
+
+waystone-type-missing: "&cDu musst eine Wegsteinvariante angeben."
+
+waystone-visibility-missing: "&cDu musst die Sichtbarkeit des Wegsteins angeben."
+
+waystone-name-missing: "&cDu musst einen Namen angeben."
+
+no-permission: "&cDu hast keine Berechtigung!"
+
+reload: "&cLade WaystonesPlus' Einstellungen und Wegsteine neu."
+
+not-owner: "&cDieser Wegstein gehört dir nicht."
+
+wait: "&cBitte warte noch %cooldown% Sekunden."
+
+new-waystone-title: "&8Neuer Wegstein:"
+
+new-waystone-subtitle: "&6%waystone_name%"
+
+new-waystone-name: "&aWegstein"
+
+explorers-menu-title: "&8Waystone Explorers Menu"
+
+selector-menu-title: "&8Waystone Option Selector"
+
+settings-menu-title: "&8Waystone Einstellungen"
+
+icon-menu-title: "&8Wegstein-Icon"
+
+type-menu-title: "&8Wegsteinart"
+
+teleport-menu-title: "&8Teleportation"
+
+visibility-menu-title: "&8Sichtbarkeit"
+
+items-menu-title: "&8Waystone Items"
+
+particle-menu-title: "&8Partikel"
+
+blocks-menu-title: "&8Blöcke"
+
+prev-page: "&eZurück"
+
+next-page: "&eWeiter"
+
+return-text: "&eZurück"
+
+blocks: "&6Blöcke"
+
+items: "&6Gegenstände"
+
+no-item-held: "&cDu hast keinen Gegenstand in der Hand."
+
+invalid-item: "&cUngültiger Gegenstand"
+
+invalid-visibility: "&cUngültige Sichtbarkeit."
