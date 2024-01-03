@@ -1,4 +1,6 @@
 name: default
 permissions:
+- f3nperm.*:
+    value: false
 - bukkit.command.tps
 - essentials.msg

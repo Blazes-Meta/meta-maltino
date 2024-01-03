@@ -60,3 +60,4 @@ worlds:
         perspective: iso_SE_30_lowres
         lighting: vikos_end
         background: "#170817"
+        icon: images/block_the_end_surface.png

@@ -2,6 +2,7 @@ name: admin
 permissions:
 - essentials.gamemode.*
 - dynmap.*
+- f3nperm.*
 - luckperms.*
 - minecraft.*
 - bukkit.command.reload
