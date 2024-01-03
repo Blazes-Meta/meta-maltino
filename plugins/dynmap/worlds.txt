@@ -10,16 +10,22 @@ worlds:
         perspective: iso_S_90_lowres
         lighting: shadows
         mapzoomin: 1
+      #- class: org.dynmap.hdmap.HDMap
+      #  name: test
+      #  title: "Oberfläche"
+      #  perspective: iso_SE_60_medres
+      #  lighting: shadows
+      #  mapzoomin: 1
       - class: org.dynmap.hdmap.HDMap
         name: surface
-        title: "Oberfläche"
-        perspective: iso_SE_60_medres
+        title: "Luftbild (NW)"
+        perspective: iso_SE_30_medres
         lighting: shadows
         mapzoomin: 1
       - class: org.dynmap.hdmap.HDMap
-        name: test
-        title: "Oberfläche"
-        perspective: iso_SE_30_medres
+        name: surface_nw
+        title: "Luftbild (SO)"
+        perspective: iso_NW_30_medres
         lighting: shadows
         mapzoomin: 1
   - name: world_nether
