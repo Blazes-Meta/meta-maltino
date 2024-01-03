@@ -1,0 +1,26 @@
+name: admin
+permissions:
+- essentials.gamemode.*
+- dynmap.*
+- luckperms.*
+- minecraft.*
+- bukkit.command.reload
+- essentials.afk
+- essentials.ban
+- essentials.enchant
+- essentials.enderchest
+- essentials.fly
+- essentials.gamemode
+- essentials.invsee
+- essentials.kick
+- essentials.kickall
+- essentials.msg
+- essentials.nick
+- essentials.recipe
+- essentials.skull
+- essentials.spawnmob
+- essentials.teleport
+- essentials.tempban
+- essentials.unban
+- essentials.vanish
+- essentials.weather

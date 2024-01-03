@@ -15,12 +15,13 @@ aliases:
   broadcast:restart:
   - function st:broadcast/restart
   
+  # Dynmap
   mapupdate:
   - dynmap updaterender
   maprenderarea:
   - dynmap radiusrender 1000
 
-  # Entregistrierungen von Ungebracuhtem und Befehlen mit Namensraum
+  # Entregistrierungen von Ungebrauchtem und Befehlen mit Namensraum
   about:
   - []
   bukkit:?:
@@ -33,6 +34,10 @@ aliases:
   - []
   bukkit:plugins:
   - []
+  bukkit:reload:
+  - []
+  bukkit:rl:
+  - []
   bukkit:ver:
   - []
   bukkit:version:
@@ -40,6 +45,8 @@ aliases:
   callback:
   - []
   customwings:
+  - []
+  dmap:
   - []
   dynmapexp:
   - []
@@ -87,6 +94,22 @@ aliases:
   - []
   gspin:
   - []
+  #lp:
+  #- []
+  luckperms:
+  - []
+  luckperms:lp:
+  - []
+  luckperms:luckperms:
+  - []
+  luckperms:perm:
+  - []
+  luckperms:permission:
+  - []
+  luckperms:permissions:
+  - []
+  luckperms:perms:
+  - []
   minecraft:help:
   - []
   minecraft:me:
@@ -103,13 +126,27 @@ aliases:
   - []
   minecraft:w:
   - []
+  minecraft:*:
+  - []
   paper:callback:
+  - []
+  perf:
+  - []
+  perm:
+  - []
+  permissions:
+  - []
+  perms:
+  - []
+  pm:
   - []
   pl:
   - []
   seen:customwings:
   - []
   seen:wings:
+  - []
+  spigot:tps:
   - []
   t:
   - []
@@ -162,4 +199,12 @@ aliases:
   essentials:w:
   - []
   essentials:whisper:
+  - []
+  etell:
+  - []
+  ewhisper:
+  - []
+  m:
+  - []
+  r:
   - []
