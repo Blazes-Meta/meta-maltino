@@ -3,7 +3,7 @@ This repository contains the default configuration for Meta & Maltino Minecraft 
 Everything is written in German since we are a German community
 
 > [!NOTE]\
-> Nutze auch das Wiki
+> Nutze auch das [Wiki](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki)
 
 
 ## Verwendung
