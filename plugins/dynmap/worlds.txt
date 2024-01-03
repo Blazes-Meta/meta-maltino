@@ -16,6 +16,12 @@ worlds:
         perspective: iso_SE_60_medres
         lighting: shadows
         mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: test
+        title: "Oberfläche"
+        perspective: iso_SE_30_medres
+        lighting: shadows
+        mapzoomin: 1
   - name: world_nether
     template: nether
     title: "Nether"
