@@ -18,8 +18,7 @@ aliases:
   mapupdate:
   - dynmap updaterender
   maprenderarea:
-  - dynmap radiusrender 1000 map
-  - dynmap radiusrender 1000 surface
+  - dynmap radiusrender 1000
   
   
   # Bei Verwendung mit EssentialsX: SIEHE https://github.com/Blazes-Meta/meta-maltino-minecraft-server/issues/7

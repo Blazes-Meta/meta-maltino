@@ -2,18 +2,24 @@ worlds:
   - name: world
     template: normal
     title: "Oberwelt"
+    extrazoomout: 1
     maps:
       - class: org.dynmap.hdmap.HDMap
         name: map
         title: "Karte"
         perspective: iso_S_90_lowres
+        lighting: shadows
+        mapzoomin: 1
       - class: org.dynmap.hdmap.HDMap
         name: surface
         title: "Oberfläche"
         perspective: iso_SE_60_medres
+        lighting: shadows
+        mapzoomin: 1
   - name: world_nether
     template: nether
     title: "Nether"
+    enabled: false
     maps:
       - class: org.dynmap.hdmap.HDMap
         name: map
@@ -26,6 +32,7 @@ worlds:
   - name: world_the_end
     template: the_end
     title: "Ende"
+    extrazoomout: 1
     maps:
       - class: org.dynmap.hdmap.HDMap
         name: map
