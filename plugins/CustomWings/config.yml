@@ -27,7 +27,7 @@ invisibilityPotionHidesWing: true
 # Settings for the wing selector menu.
 # Remeber slot numbers start at 0.
 wingSelectMenu:
-  name: "&c&lFlügel auswählen"
+  name: "Flügel auswählen"
   size: 36 # Must be a multiple of 9.
   pages: 1
 
