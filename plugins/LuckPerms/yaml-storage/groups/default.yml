@@ -3,4 +3,14 @@ permissions:
 - f3nperm.*:
     value: false
 - bukkit.command.tps
+- craftenhance.view
 - essentials.msg
+- gsit.bellyflop
+- gsit.crawl
+- gsit.crawlsneak
+- gsit.lay
+- gsit.playersit
+- gsit.pose
+- gsit.sit
+- gsit.sitclick
+- gsit.spin
