@@ -202,7 +202,7 @@ WBRecipeViewer:
       material: GLOWSTONE_DUST
       name: '&aZurück'
       lore:
-      - '&fGehe zurück zum vorherigen Menü'
+      - '&fGehe zurück zur Rezeptübersicht'
       glow: true
     '12':
       material: WORKBENCH
@@ -212,7 +212,7 @@ WBRecipeViewer:
       - '&fGegenstände in der echten Werkbank platzieren kannst.'
       - '&f'
       - '&fDas Rezept ist &3[shaped]&f'
-      - '&fDie Zutaten müssen &3[match meta]'
+      - '&fDie Zutaten haben die Bedingung &3[match meta]'
       glow: true
 WBRecipeEditor:
   menu_settings:
@@ -385,7 +385,7 @@ FurnaceRecipeViewer:
       material: GLOWSTONE_DUST
       name: '&aZurück'
       lore:
-      - '&fGehe zurück zum vorherigen Menü'
+      - '&fGehe zurück zur Rezeptübersicht'
       glow: true
     '11':
       material: FURNACE
@@ -393,7 +393,7 @@ FurnaceRecipeViewer:
       lore:
       - '&fDas Rezept lohnt mit &3[exp] &fXP-Punkten'
       - '&fDas herstellen dauert &3[duration] &fTicks'
-      - '&fDie Zutaten müssen &3[match meta]'
+      - '&fDie Zutaten haben die Bedingung &3[match meta]'
       glow: true
 FurnaceRecipeEditor:
   menu_settings:
