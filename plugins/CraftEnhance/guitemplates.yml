@@ -6,92 +6,90 @@ RecipesViewer:
   buttons:
     '46':
       buttonType: PrvPage
-      color: LIGHT_BLUE
-      material: STAINED_GLASS_PANE
-      name: '&aPrevious Page'
+      #color: LIGHT_BLUE
+      material: FEATHER
+      name: '&aVorherige Seite'
       lore:
-      - '&fGo to the previous page'
+      - '&fSpringe zur vorherigen Seite'
       glow: true
     '48':
       buttonType: Search
       material: PAPER
-      name: '&aSearch for a recipe'
+      name: '&aSuche ein Rezept'
       lore:
-      - '&fSearch for same or similar'
-      - '&frecipes,it can be enough'
-      - '&ftype three/four leters.'
+      - '&fSuchen nach einem ähnlichen bzw. dem selben'
+      - '&fRezept.'
       glow: true
     '49':
       buttonType: Back
       material: GLOWSTONE_DUST
-      name: '&aBack'
+      name: '&aZurück'
       lore:
-      - '&fGo back to the previous GUI'
+      - '&fSpringe zum vorherigen GUI'
       glow: true
     '52':
       buttonType: NxtPage
-      color: LIGHT_BLUE
-      material: STAINED_GLASS_PANE
-      name: '&aNext Page'
+      #color: LIGHT_BLUE
+      material: FEATHER
+      name: '&aNächste Seite'
       lore:
-      - '&fGo to the next page'
+      - '&fSpringe zur nächsten Seite'
       glow: true
 RecipesCategorys:
   menu_settings:
-    name: Categorys
+    name: Kategorien
     fill-space: 0-45
     sound: BLOCK_NOTE_BLOCK_BASEDRUM
   buttons:
     '-1':
       buttonType: FillItems
       material: STONE
-      name: '&aCategory:&3 [display_name]'
+      name: '&aKategorie:&3 [display_name]'
       lore:
-      - '&fLeftclick to open'
-      - '&fRightclick to edit Category'
+      - '&fLinksklicke um zu öffnen'
+      - '&fRechtsklicke, um die Kategorie zu bearbeiten'
       glow: true
     '47':
       buttonType: NewCategory
       material: BOOK
-      name: '&aNew category'
+      name: '&aNeue Kategorie'
       lore:
-      - '&fAdd new category'
+      - '&fNeue Kategorie hinzufügen'
       glow: true
     '51':
       buttonType: Search
       material: PAPER
-      name: '&aSearch for a category'
+      name: '&aSuche nach einer Kategorie'
       lore:
-      - '&fSearch for same or similar'
-      - '&fcategorys, so it can be enough'
-      - '&ftype three/four leters.'
+      - '&fSuche nach der genauen oder einer'
+      - '&fähnlichen Kategorie'
       glow: true
     '46':
       buttonType: PrvPage
-      color: LIGHT_BLUE
-      material: STAINED_GLASS_PANE
-      name: '&aPrevious Page'
+      #color: LIGHT_BLUE
+      material: FEATHER
+      name: '&aVorherige Seite'
       lore:
-      - '&fGo to the previous page'
+      - '&fGehe zur vorherigen Seite'
       glow: true
     '49':
       buttonType: Back
       material: GLOWSTONE_DUST
-      name: '&aBack'
+      name: '&aZurück'
       lore:
-      - '&fGo back to the previous GUI'
+      - '&fGehe zurück zum vorherigen Menü'
       glow: true
     '52':
       buttonType: NxtPage
-      color: LIGHT_BLUE
-      material: STAINED_GLASS_PANE
-      name: '&aNext Page'
+      #color: LIGHT_BLUE
+      material: FEATHER
+      name: '&aNächste Seite'
       lore:
-      - '&fGo to the next page'
+      - '&fGehe zur nächsten Seite'
       glow: true
 CategorysSettings:
   menu_settings:
-    name: Category settings
+    name: 'Kategorie Einstellungen'
     sound: BLOCK_NOTE_BLOCK_BASEDRUM
   buttons:
     0-8,9,11,13,15,17,19-26:
@@ -104,64 +102,63 @@ CategorysSettings:
     '10':
       buttonType: RemoveCategory
       material: BARRIER
-      name: '&aRemove category'
+      name: '&aKategorie entfernen'
       lore:
-      - '&fRemove category it will'
-      - '&fmove all recipes to defult.'
+      - '&fRezepte, die sich in dieser Kategorie'
+      - '&fbefinden, werden nach &n''default'''
+      - '&fverschoben'
       glow: true
     '12':
       buttonType: ChangeCategoryName
       material: BOOK
-      name: '&aChange category name'
+      name: '&aKategorie umbenennen'
       lore:
-      - '&fChange category name.'
+      - '&fVerändere den Namen der Kategorie'
       glow: true
     '14':
       buttonType: ChangeCategory
       material: WRITTEN_BOOK
-      name: '&aChange category'
+      name: '&aKategorie ändern'
       lore:
-      - '&fMove this category to'
-      - '&fnew category.'
+      - '&fBenennt die Kategorie um'
       glow: true
     '16':
       buttonType: ChangeCategoryItem
       material: STONE
-      name: '&aChange category item'
+      name: '&aKategorie-Icon ändern'
       lore:
-      - '&fChange category item'
-      - '&fsome you use for this'
-      - '&fcategory.'
+      - '&fÄndere das Icon'
+      - '&fder Kategorie'
       glow: true
     '18':
       buttonType: Back
       material: GLOWSTONE_DUST
-      name: '&aBack'
+      name: '&aZurück'
       lore:
-      - '&fGo back to the previous GUI'
+      - '&fSpringe zum vorherigen GUI'
       glow: true
 CategoryList:
   menu_settings:
-    name: Category list
+    name: Kategorieliste
     fill-space: 0-45
     sound: BLOCK_NOTE_BLOCK_BASEDRUM
   buttons:
     '-1':
       buttonType: FillItems
       material: STONE
-      name: '&aCategory:&3 [display_name]'
+      name: '&aKategorie:&3 [display_name]'
       lore:
       - ' '
-      - '&fLeftclick to open this Category'
-      - '&fRightclick to edit this Category'
+      - '&fLinksklicke um zu öffnen'
+      - '&fRechtsklicke, um die Kategorie zu bearbeiten'
       glow: true
     '46':
       buttonType: PrvPage
-      color: LIGHT_BLUE
-      material: STAINED_GLASS_PANE
-      name: '&aPrevious Page'
+      #color: LIGHT_BLUE
+      material: FEATHER
+      name: '&aVorherige Seite'
       lore:
-      - '&fGo to the previous page'
+      - '&fGehe zur vorherigen Seite'
       glow: true
     '49':
       buttonType: Back
@@ -172,9 +169,9 @@ CategoryList:
       glow: true
     '52':
       buttonType: NxtPage
-      color: LIGHT_BLUE
-      material: STAINED_GLASS_PANE
-      name: '&aNext Page'
+      #color: LIGHT_BLUE
+      material: FEATHER
+      name: '&aNächste Seite'
       lore:
       - '&fGo to the next page'
       glow: true
@@ -189,7 +186,7 @@ CategoryList:
       glow: true
 WBRecipeViewer:
   menu_settings:
-    name: Workbench recipe
+    name: Werkbankrezept
     fill-space: 0-2,9-11,18-20,13
     sound: BLOCK_NOTE_BLOCK_BASEDRUM
   buttons:
@@ -203,21 +200,19 @@ WBRecipeViewer:
     '26':
       buttonType: Back
       material: GLOWSTONE_DUST
-      name: '&aBack'
+      name: '&aZurück'
       lore:
-      - '&fGo back to the previous GUI'
+      - '&fGehe zurück zum vorherigen Menü'
       glow: true
     '12':
       material: WORKBENCH
-      name: '&aCustom crafting table recipe'
+      name: '&aWerkbankrezept'
       lore:
-      - '&fThis is a example on how you add'
-      - '&fthe items in the real crafting table. If'
-      - '&fit shaped recipe you need put the items'
-      - '&fin exact same patern.'
+      - '&fDies ist ein Beispiel dafür, wie du die'
+      - '&fGegenstände in der echten Werkbank platzieren kannst.'
       - '&f'
-      - '&fThe recipe is &3[shaped]&f'
-      - '&fThe ingredients need &3[match meta]'
+      - '&fDas Rezept ist &3[shaped]&f'
+      - '&fDie Zutaten müssen &3[match meta]'
       glow: true
 WBRecipeEditor:
   menu_settings:
@@ -358,7 +353,7 @@ RecipeDisabler:
       buttonType: NxtPage
       color: base64eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFiOTVhODc1MWFlYWEzYzY3MWE4ZTkwYjgzZGU3NmEwMjA0ZjFiZTY1NzUyYWMzMWJlMmY5OGZlYjY0YmY3ZiJ9fX0=
       material: GUI_SKULL_ITEM
-      name: '&aNext Page'
+      name: '&aNächste Seite'
       lore:
       - '&fGo to the next page'
       glow: true
@@ -374,7 +369,7 @@ RecipeDisabler:
       glow: false
 FurnaceRecipeViewer:
   menu_settings:
-    name: Furnace recipe
+    name: Ofenrezept
     fill-space: 10,12
     sound: BLOCK_NOTE_BLOCK_BASEDRUM
   buttons:
@@ -388,17 +383,17 @@ FurnaceRecipeViewer:
     '26':
       buttonType: Back
       material: GLOWSTONE_DUST
-      name: '&aBack'
+      name: '&aZurück'
       lore:
-      - '&fGo back to the previous GUI'
+      - '&fGehe zurück zum vorherigen Menü'
       glow: true
     '11':
       material: FURNACE
-      name: '&fEnhanced furnace recipe'
+      name: '&fOfenrezept'
       lore:
-      - '&fThe recipe rewards &3[exp] &fexp'
-      - '&fThe cooking time is &3[duration] &fticks'
-      - '&fThe ingredients need &3[match meta]'
+      - '&fDas Rezept lohnt mit &3[exp] &fXP-Punkten'
+      - '&fDas herstellen dauert &3[duration] &fTicks'
+      - '&fDie Zutaten müssen &3[match meta]'
       glow: true
 FurnaceRecipeEditor:
   menu_settings:
@@ -537,5 +532,5 @@ EditorTypeSelector:
       lore:
       - ''
       glow: false
-# Do not change this.
+#Do not change this.
 Version: 5
