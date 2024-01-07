@@ -8,7 +8,6 @@ Grobe Beschreibung
 :Check: AFK: Hm?
 
 # Zugangsdaten
-
 :Member: Whitelist aktiv (DISCORDKANAL)
 
 :Join: Version Modpack
@@ -17,6 +16,7 @@ Grobe Beschreibung
 # Features
 :Navigation: Dynmap :Join: DYNMAP LINK
 :Staff: Custom Recipes :Join: `/recipes`
+:Nitro: Erhöhte Verzauberungsgrenzen
 
 # Regeln
 :Forbidden: X-Ray
