@@ -163,9 +163,9 @@ CategoryList:
     '49':
       buttonType: Back
       material: GLOWSTONE_DUST
-      name: '&aBack'
+      name: '&aZurück'
       lore:
-      - '&fGo back to the previous GUI'
+      - '&fGehe zurück zum vorherigen Menü'
       glow: true
     '52':
       buttonType: NxtPage
@@ -173,16 +173,15 @@ CategoryList:
       material: FEATHER
       name: '&aNächste Seite'
       lore:
-      - '&fGo to the next page'
+      - '&fGehe zur nächsten Seite'
       glow: true
     '48':
       buttonType: Search
       material: PAPER
-      name: '&aSearch for a category'
+      name: '&aSuche eine Kategorie'
       lore:
-      - '&fSearch for same or similar'
-      - '&fcategorys, so it can be enough'
-      - '&ftype three/four leters.'
+      - '&fSuchen nach einer ähnlichen bzw. der selben'
+      - '&fKategorie.'
       glow: true
 WBRecipeViewer:
   menu_settings:
@@ -230,12 +229,12 @@ WBRecipeEditor:
     '5':
       buttonType: changeCategory
       material: WRITTEN_BOOK
-      name: '&aChange category'
+      name: '&aKategorie ändern'
       lore:
-      - '&fChange category, if it not exist'
-      - '&fcreate new one.'
+      - '&fÄndere die Kategorie, wenn sie nicht existiert.'
+      - '&fwird sie erstellt.'
       - ''
-      - '&fCurrently set category:&3 [category]'
+      - '&fAktuelle Kategorie:&3 [category]'
       glow: true
     '23':
       buttonType: changeCategoryList
@@ -251,75 +250,74 @@ WBRecipeEditor:
     '24':
       buttonType: SetPermission
       material: PAPER
-      name: '&aClick to set permission'
+      name: '&aBerechtigung einstellen'
       lore:
-      - '&fcurrent:&3 [permission]'
+      - '&fAktuell:&3 [permission]'
       glow: true
     '15':
       material: DIAMOND
-      name: '&aClick to change: &3[hidden]'
+      name: '&aSichtbarkeit ändern: &3[hidden]'
       buttonType: SwitchHidden
       glow: true
     '26':
       buttonType: Back
       material: GLOWSTONE_DUST
-      name: '&aBack'
+      name: '&aZurück'
       lore:
-      - '&fGo back to the previous GUI'
+      - '&fGehe zurück zum vorherigen Menü'
       glow: true
     '12':
       material: WORKBENCH
-      name: '&3Enhanced crafting table recipe'
+      name: '&3Werkbankrezept'
       lore:
-      - '&fThe recipe is &3[shaped]&f'
-      - '&fThe ingredients need &3[match meta]'
-      - '&fThe key of the recipe is &3[key]'
-      - '&fThe permission of the recipe is &3[permission]'
+      - '&fDas Rezept ist &3[shaped]&f'
+      - '&fDie Zutaten müssen die bedingung &3[match meta] &f erfüllen'
+      - '&fDer Key des Rezepts lautet &3[key]'
+      - '&fDas rezept erfordert die Berechtigung &3[permission]'
       glow: true
     '25':
       buttonType: SaveRecipe
       material: EMERALD
-      name: '&aSave the recipe'
+      name: '&aRezept speichern'
       lore:
       - ''
       glow: true
     '8':
       buttonType: DeleteRecipe
       material: REDSTONE
-      name: '&cDelete the recipe'
+      name: '&cRezept entfernen'
       lore:
-      - '&7&oNote that there''s no going back'
-      - '&7&oonce you delete your recipe.'
+      - '&7&oDies kann nicht rückgängig gemacht werden'
       glow: true
     '17':
       buttonType: ResetRecipe
       material: STONE
-      name: '&aReset the recipe'
+      name: '&aRezept zurücksetzen'
       lore:
       - ''
       glow: true
     '16':
       buttonType: SwitchMatchMeta
       material: ENCHANTED_BOOK
-      name: '&aClick to change: &3[match meta]'
+      name: '&aMetadaten-Bedingung ändern: &3[match meta]'
       lore:
       - ''
       glow: true
     '7':
       buttonType: SwitchShaped
       material: WEB
-      name: '&aClick to change: &3[shaped]'
+      name: '&aRezeptform ändern: &3[shaped]'
       lore:
       - ''
       glow: true
     '6':
       buttonType: SetPosition
       material: PAPER
-      name: '&aClick to set the position'
+      name: '&aPosition verändern'
       lore:
-      - '&fCurrent position'
+      - '&fAktuelle Position:'
       - '&fSlot &3[slot]'
-      - '&fPage &3[page]'
+      - '&fSeite &3[page]'
       glow: true
 RecipeDisabler:
   menu_settings:
