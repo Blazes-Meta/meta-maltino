@@ -1,17 +1,10 @@
-name: operator
+name: admin
 permissions:
 - essentials.gamemode.*
-- craftenhance.*
-- customwings.*
-- dynmap.*
 - f3nperm.*
-- gsit.*
-- luckperms.*
 - minecraft.*
-- tab.*
-- bukkit.command.reload
 - customwings
-- essentials.afk
+- displayname.Admin
 - essentials.ban
 - essentials.enchant
 - essentials.enderchest
@@ -30,3 +23,6 @@ permissions:
 - essentials.unban
 - essentials.vanish
 - essentials.weather
+prefixes:
+- '&c&lADMIN &r':
+    priority: 0

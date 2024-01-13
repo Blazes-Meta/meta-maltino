@@ -4,6 +4,8 @@ permissions:
     value: false
 - bukkit.command.tps
 - craftenhance.view
+- displayname.Standard
+- essentials.afk
 - essentials.msg
 - gsit.bellyflop
 - gsit.crawl
