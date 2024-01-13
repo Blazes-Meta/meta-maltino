@@ -31,6 +31,7 @@ permissions:
 - essentials.unban
 - essentials.vanish
 - essentials.weather
+- weight.100
 prefixes:
 - '&4&lOWNER &r':
     priority: 1

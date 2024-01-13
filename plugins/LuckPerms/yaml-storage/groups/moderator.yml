@@ -1,6 +1,6 @@
 name: moderator
 permissions:
-- customwings
+- customwings.wing.*
 - displayname.Moderator
 - essentials.ban
 - essentials.kick

@@ -13,7 +13,6 @@ permissions:
 - essentials.invsee
 - essentials.kick
 - essentials.kickall
-- essentials.msg
 - essentials.nick
 - essentials.recipe
 - essentials.skull
@@ -23,6 +22,8 @@ permissions:
 - essentials.unban
 - essentials.vanish
 - essentials.weather
+- weight.90
+- customwings.wing.*
 prefixes:
 - '&c&lADMIN &r':
     priority: 0

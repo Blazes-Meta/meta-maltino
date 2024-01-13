@@ -1,5 +1,7 @@
 name: default
 permissions:
+- customwings.wing.*:
+    value: false
 - f3nperm.*:
     value: false
 - bukkit.command.tps
