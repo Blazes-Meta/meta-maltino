@@ -6,7 +6,7 @@ ConfigVersion: 1.27.0
 
 # Bot Token, du weißt nicht, was das ist? Schau dir das Video auf der Pluginseite an!
 # Sie müssen Ihren Server neu starten, nachdem Sie diese Option geändert haben
-BotToken: "MTE5MzQ5NDM5NTg1MzQ4NDE2NA.GAuJeK.37UhPeFV4RZ8jiAgzq_1tz7ZIG4paqNJ36ToZw"
+BotToken: "_BOTTOKEN"
 
 # Kanalverbindungen vom Spiel zu Discord
 # Syntax ist Channels: {"Kanalname im Spiel von Minecraft": "numerische Kanal-ID von Discord", "ein anderer Kanalname im Spiel von Minecraft": "eine andere numerische Kanal-ID von Discord"}
@@ -27,7 +27,7 @@ BotToken: "MTE5MzQ5NDM5NTg1MzQ4NDE2NA.GAuJeK.37UhPeFV4RZ8jiAgzq_1tz7ZIG4paqNJ36T
 #
 # Der erste Teil von Kanalpaaren ist nicht der Discord-Kanalname!
 # Führen Sie ein "/discord reload" aus, nachdem Sie diese Option zum Anwenden geändert haben
-Channels: {"global": "1193574306102390935"}
+Channels: {"global": "_CHANNEL"}
 
 # Konsolenkanal; benötigt eine numerische Kanal-ID (NICHT den Namen!), zum Deaktivieren auf "" setzen
 DiscordConsoleChannelId: "000000000000000000"
@@ -77,7 +77,7 @@ Experiment_JdbcUsername: "username"
 Experiment_JdbcPassword: "password"
 
 # Webhook Lieferung
-Experiment_WebhookChatMessageDelivery: false
+Experiment_WebhookChatMessageDelivery: true
 Experiment_WebhookChatMessageUsernameFormat: "%displayname%"
 Experiment_WebhookChatMessageFormat: "%message%"
 Experiment_WebhookChatMessageUsernameFromDiscord: false
@@ -87,7 +87,7 @@ Experiment_WebhookChatMessageUsernameFilters: {}
 # Einbetten und Webhook-Bild-/Avatar-URL-Format
 # Alternative Einbettungs-Avatar-URL für Offline-Server:
 # https://cravatar.eu/helmavatar/{username}/{size}.png#{texture}
-AvatarUrl: https://crafatar.com/avatars/{uuid-nodashes}?overlay&size={size}
+AvatarUrl: https://cravatar.eu/helmavatar/{username}/{size}.png#{texture}
 
 # Reserializer
 # Konvertiert die Formatierung (fett, kursiv, unterstreicht) zwischen Minecraft und Discord
@@ -103,7 +103,7 @@ ForceTLSv12: true
 NoopHostnameVerifier: false
 MaximumAttemptsForSystemDNSBeforeUsingFallbackDNS: 3
 TimestampFormat: EEE, d. MMM yyyy HH:mm:ss z
-DateFormat: yyyy-MM-dd
+DateFormat: dd-MM-yyyy
 # https://docs.discordsrv.com/config/#Timezone
 Timezone: default
 # MinecraftMentionSound: Ob ein Ton an den Spieler in Minecraft gesendet werden soll, wenn er von Discord aus angesprochen wird
