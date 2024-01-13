@@ -124,39 +124,31 @@ CategoryList:
       name: '&aKategorie:&3 [display_name]'
       lore:
       - ' '
-      - '&fLinksklicke um zu öffnen'
-      - '&fRechtsklicke, um die Kategorie zu bearbeiten'
+      - '&fLinksklick zum öffnen'
+      - '&fRechtsklick um zu bearbeiten'
       glow: true
     '46':
       buttonType: PrvPage
-      #color: LIGHT_BLUE
       material: FEATHER
       name: '&aVorherige Seite'
-      lore:
-      - '&fGehe zur vorherigen Seite'
       glow: true
     '49':
       buttonType: Back
       material: GLOWSTONE_DUST
       name: '&aZurück'
-      lore:
-      - '&fGehe zurück zum vorherigen Menü'
       glow: true
     '52':
       buttonType: NxtPage
-      #color: LIGHT_BLUE
       material: FEATHER
       name: '&aNächste Seite'
-      lore:
-      - '&fGehe zur nächsten Seite'
       glow: true
     '48':
       buttonType: Search
       material: PAPER
       name: '&aSuche eine Kategorie'
       lore:
-      - '&fSuchen nach einer ähnlichen bzw. der selben'
-      - '&fKategorie.'
+      - '&fSuche nach einer bestimmten oder'
+      - '&fähnlichen Kategorie'
       glow: true
 WBRecipeViewer:
   menu_settings:
