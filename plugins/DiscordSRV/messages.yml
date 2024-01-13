@@ -390,8 +390,8 @@ UnknownCommandMessage: "&bDieser Befehl existiert nicht!"
 # DiscordChatChannelServerStartupMessage: Nachricht beim Start des Servers, leer lassen zum deaktivieren
 # DiscordChatChannelServerShutdownMessage: Nachricht beim Stopp des Servers, leer lassen zum deaktivieren
 #
-DiscordChatChannelServerStartupMessage: ":white_check_mark: **Server wurde gestartet**"
-DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server wurde heruntergefahren**"
+DiscordChatChannelServerStartupMessage: "## :Allowed: **Server wurde gestartet**"
+DiscordChatChannelServerShutdownMessage: "## :Forbidden: **Server wurde heruntergefahren**"
 
 # Server-Watchdog
 #

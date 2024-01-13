@@ -6,7 +6,7 @@ ConfigVersion: 1.27.0
 
 # Bot Token, du weißt nicht, was das ist? Schau dir das Video auf der Pluginseite an!
 # Sie müssen Ihren Server neu starten, nachdem Sie diese Option geändert haben
-BotToken: "_BOTTOKEN"
+BotToken: "MTE5MzQ5NDM5NTg1MzQ4NDE2NA.GAuJeK.37UhPeFV4RZ8jiAgzq_1tz7ZIG4paqNJ36ToZw"
 
 # Kanalverbindungen vom Spiel zu Discord
 # Syntax ist Channels: {"Kanalname im Spiel von Minecraft": "numerische Kanal-ID von Discord", "ein anderer Kanalname im Spiel von Minecraft": "eine andere numerische Kanal-ID von Discord"}
@@ -27,7 +27,7 @@ BotToken: "_BOTTOKEN"
 #
 # Der erste Teil von Kanalpaaren ist nicht der Discord-Kanalname!
 # Führen Sie ein "/discord reload" aus, nachdem Sie diese Option zum Anwenden geändert haben
-Channels: {"global": "CHANNEL"}
+Channels: {"global": "1193574306102390935"}
 
 # Konsolenkanal; benötigt eine numerische Kanal-ID (NICHT den Namen!), zum Deaktivieren auf "" setzen
 DiscordConsoleChannelId: "000000000000000000"
