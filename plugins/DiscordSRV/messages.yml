@@ -199,7 +199,7 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 MinecraftPlayerJoinMessage:
   Enabled: true
   Webhook:
-    Enable: false
+    Enable: true
     AvatarUrl: "%botavatarurl%"
     Name: "%botname%"
   Content: ""
@@ -315,7 +315,7 @@ MinecraftPlayerDeathMessage:
 # %world%:       Welt in der der Spieler ist (z.B. Nether)
 #
 MinecraftPlayerAchievementMessage:
-  Enabled: true
+  Enabled: false
   Webhook:
     Enable: false
     AvatarUrl: "%botavatarurl%"
@@ -368,7 +368,7 @@ MinecraftPlayerAchievementMessage:
 # %tps% = Durchschnitts-TPS (Ticks per second)
 # PlaceholderAPI Platzhalter werden auch unterstützt
 #
-ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% Spieler online | %totalplayers% Spieler gesamt | Server online seit %uptimemins% Minuten | Letzte Aktualisierung: %date%"
+ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% Spieler online | %totalplayers% Spieler gesamt | Letzte Aktualisierung: %date%"
 ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | RAM: %usedmemorygb%GB benutzt/%freememorygb%GB frei/%maxmemorygb%GB max | %serverversion%"
 # AtServerShutdownFormat unterstützt NUR %totalplayers%, %serverversion% & %date% / %time%
 ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server ist offline | %totalplayers% Spieler gesamt"
