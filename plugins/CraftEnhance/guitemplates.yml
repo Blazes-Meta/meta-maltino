@@ -36,7 +36,7 @@ RecipesCategorys:
     '-1':
       buttonType: FillItems
       material: STONE
-      name: '&aKategorie:&3 [display_name]'
+      name: '&3[display_name]'
       lore:
       - '&fLinksklicke um zu öffnen'
       - '&fRechtsklicke, um die Kategorie zu bearbeiten'
@@ -85,7 +85,7 @@ CategorysSettings:
       name: '&aKategorie entfernen'
       lore:
       - '&fRezepte, die sich in dieser Kategorie'
-      - '&fbefinden, werden nach &n''default'''
+      - '&fbefinden, werden nach ''default'''
       - '&fverschoben'
       glow: true
     '12':
@@ -93,29 +93,24 @@ CategorysSettings:
       material: BOOK
       name: '&aKategorie umbenennen'
       lore:
-      - '&fVerändere den Namen der Kategorie'
+      - '&fÄndert den Anzeigenamen der Kategorie'
       glow: true
     '14':
       buttonType: ChangeCategory
       material: WRITTEN_BOOK
       name: '&aKategorie ändern'
       lore:
-      - '&fBenenne die Kategorie um'
+      - '&fÄndert die ID der Kategorie'
       glow: true
     '16':
       buttonType: ChangeCategoryItem
       material: STONE
       name: '&aKategorie-Icon ändern'
-      lore:
-      - '&fÄndere das Icon'
-      - '&fder Kategorie'
       glow: true
     '18':
       buttonType: Back
       material: GLOWSTONE_DUST
       name: '&aZurück'
-      lore:
-      - '&fSpringe zum vorherigen GUI'
       glow: true
 CategoryList:
   menu_settings:
