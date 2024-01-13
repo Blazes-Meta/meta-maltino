@@ -8,6 +8,7 @@ permissions:
 - gsit.*
 - luckperms.*
 - minecraft.*
+- tab.*
 - bukkit.command.reload
 - customwings
 - essentials.afk
