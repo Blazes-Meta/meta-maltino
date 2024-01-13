@@ -27,7 +27,7 @@ wingBuySuccess: "&b&l{CustomWings} Du hast erfolgreich {WINGNAME}-&3Flügel geka
 
 # Error messages
 noPermissionForCommandError: "&b&l{CustomWings} &cDu hast nicht die nötigen Berechtigungen, um den {COMMAND}-Befehl zu benutzen. Es wird die Berechtigung {PERMISSION} benötigt"
-noPermissionToEquipWingError: "&b&l{CustomWings} &cDu hast nicht die nötigen Berechtigungen, um die {WINGNAME}&cFlügel auszurüsten. Es wird die Berechtigung {PERMISSION} benötigt"
+noPermissionToEquipWingError: "&b&l{CustomWings} &cDu hast nicht die nötigen Berechtigungen, um die {WINGNAME}&c Flügel auszurüsten. Es wird die Berechtigung {PERMISSION} benötigt"
 notAPlayerError: "&b&l{CustomWings} &cNur Spieler können diesen Befehl ausführen!"
 notConsoleError: "&b&l{CustomWings} &cNur die Konsole können diesen Befehl ausführen!"
 invalidPlayerError: "&b&l{CustomWings} &cSpieler mit dem Namen {PLAYERNAME} &cwurde nicht gefunden!"
