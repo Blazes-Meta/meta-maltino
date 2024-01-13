@@ -1,16 +1,13 @@
 RecipesViewer:
   menu_settings:
-    name: 'Rezepte '
+    name: 'Rezepte: '
     fill-space: 0-44
     sound: BLOCK_NOTE_BLOCK_BASEDRUM
   buttons:
     '46':
       buttonType: PrvPage
-      #color: LIGHT_BLUE
       material: FEATHER
       name: '&aVorherige Seite'
-      lore:
-      - '&fSpringe zur vorherigen Seite'
       glow: true
     '48':
       buttonType: Search
@@ -24,20 +21,15 @@ RecipesViewer:
       buttonType: Back
       material: GLOWSTONE_DUST
       name: '&aZurück'
-      lore:
-      - '&fGehe zurück zum vorherigen GUI'
       glow: true
     '52':
       buttonType: NxtPage
-      #color: LIGHT_BLUE
       material: FEATHER
       name: '&aNächste Seite'
-      lore:
-      - '&fSpringe zur nächsten Seite'
       glow: true
 RecipesCategorys:
   menu_settings:
-    name: Kategorien
+    name: Rezeptkategorien
     fill-space: 0-45
     sound: BLOCK_NOTE_BLOCK_BASEDRUM
   buttons:
@@ -52,40 +44,30 @@ RecipesCategorys:
     '47':
       buttonType: NewCategory
       material: BOOK
-      name: '&aNeue Kategorie'
-      lore:
-      - '&fNeue Kategorie hinzufügen'
+      name: '&aNeue Kategorie erstellen'
       glow: true
     '51':
       buttonType: Search
       material: PAPER
       name: '&aSuche nach einer Kategorie'
       lore:
-      - '&fSuche nach der genauen oder einer'
+      - '&fSuche nach einer bestimmten oder'
       - '&fähnlichen Kategorie'
       glow: true
     '46':
       buttonType: PrvPage
-      #color: LIGHT_BLUE
       material: FEATHER
       name: '&aVorherige Seite'
-      lore:
-      - '&fGehe zur vorherigen Seite'
       glow: true
     '49':
       buttonType: Back
       material: GLOWSTONE_DUST
       name: '&aZurück'
-      lore:
-      - '&fGehe zurück zum vorherigen Menü'
       glow: true
     '52':
       buttonType: NxtPage
-      #color: LIGHT_BLUE
       material: FEATHER
       name: '&aNächste Seite'
-      lore:
-      - '&fGehe zur nächsten Seite'
       glow: true
 CategorysSettings:
   menu_settings:
@@ -95,9 +77,7 @@ CategorysSettings:
     0-8,9,11,13,15,17,19-26:
       color: GRAY
       material: STAINED_GLASS_PANE
-      name: ''
-      lore:
-      - ''
+      name: ' '
       glow: false
     '10':
       buttonType: RemoveCategory
@@ -120,7 +100,7 @@ CategorysSettings:
       material: WRITTEN_BOOK
       name: '&aKategorie ändern'
       lore:
-      - '&fBenennt die Kategorie um'
+      - '&fBenenne die Kategorie um'
       glow: true
     '16':
       buttonType: ChangeCategoryItem
@@ -192,9 +172,7 @@ WBRecipeViewer:
     3-8,14-17,21-25:
       color: GRAY
       material: STAINED_GLASS_PANE
-      name: ''
-      lore:
-      - ''
+      name: ' '
       glow: false
     '26':
       buttonType: Back
@@ -222,16 +200,14 @@ WBRecipeEditor:
     3-4,14,21-22:
       color: GRAY
       material: STAINED_GLASS_PANE
-      name: ''
-      lore:
-      - ''
+      name: ' '
       glow: false
     '5':
       buttonType: changeCategory
       material: WRITTEN_BOOK
       name: '&aKategorie ändern'
       lore:
-      - '&fÄndere die Kategorie, wenn sie nicht existiert.'
+      - '&fÄndere die Kategorie, wenn sie nicht existiert'
       - '&fwird sie erstellt.'
       - ''
       - '&fAktuelle Kategorie:&3 [category]'
@@ -279,8 +255,6 @@ WBRecipeEditor:
       buttonType: SaveRecipe
       material: EMERALD
       name: '&aRezept speichern'
-      lore:
-      - ''
       glow: true
     '8':
       buttonType: DeleteRecipe
@@ -293,22 +267,16 @@ WBRecipeEditor:
       buttonType: ResetRecipe
       material: STONE
       name: '&aRezept zurücksetzen'
-      lore:
-      - ''
       glow: true
     '16':
       buttonType: SwitchMatchMeta
       material: ENCHANTED_BOOK
       name: '&aMetadaten-Bedingung ändern: &3[match meta]'
-      lore:
-      - ''
       glow: true
     '7':
       buttonType: SwitchShaped
       material: WEB
       name: '&aRezeptform ändern: &3[shaped]'
-      lore:
-      - ''
       glow: true
     '6':
       buttonType: SetPosition
@@ -374,9 +342,7 @@ FurnaceRecipeViewer:
     0-9,13-25:
       color: GRAY
       material: STAINED_GLASS_PANE
-      name: ''
-      lore:
-      - ''
+      name: ' '
       glow: false
     '26':
       buttonType: Back
@@ -403,8 +369,6 @@ FurnaceRecipeEditor:
       color: GRAY
       material: STAINED_GLASS_PANE
       name: ' '
-      lore:
-      - ''
       glow: false
     '5':
       buttonType: changeCategory
@@ -470,8 +434,6 @@ FurnaceRecipeEditor:
       buttonType: SaveRecipe
       material: EMERALD
       name: '&aSave &fthe recipe'
-      lore:
-      - ''
       glow: true
     '8':
       buttonType: DeleteRecipe
@@ -485,15 +447,11 @@ FurnaceRecipeEditor:
       buttonType: ResetRecipe
       material: STONE
       name: '&7Reset &fthe recipe'
-      lore:
-      - ''
       glow: true
     '16':
       buttonType: SwitchMatchMeta
       material: ENCHANTED_BOOK
       name: '&fClick to change: &e[match meta]'
-      lore:
-      - ''
       glow: true
     '6':
       buttonType: SetPosition
@@ -513,22 +471,16 @@ EditorTypeSelector:
       buttonType: ChooseFurnaceType
       material: FURNACE
       name: '&fClick to create a furnace recipe'
-      lore:
-      - ''
       glow: true
     '5':
       buttonType: ChooseWorkbenchType
       material: WORKBENCH
       name: '&fClick to create a workbench recipe'
-      lore:
-      - ''
       glow: true
     0-2,4,6-8:
       color: GRAY
       material: STAINED_GLASS_PANE
-      name: ''
-      lore:
-      - ''
+      name: ' '
       glow: false
 #Do not change this.
 Version: 5
