@@ -25,7 +25,7 @@ RecipesViewer:
       material: GLOWSTONE_DUST
       name: '&aZurück'
       lore:
-      - '&fSpringe zum vorherigen GUI'
+      - '&fGehe zurück zum vorherigen GUI'
       glow: true
     '52':
       buttonType: NxtPage
