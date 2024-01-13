@@ -1,0 +1,17 @@
+name: moderator
+permissions:
+- customwings
+- displayname.Moderator
+- essentials.ban
+- essentials.kick
+- essentials.nick
+- essentials.skull
+- essentials.tempban
+- essentials.unban
+- minecraft.command.ban
+- minecraft.command.kick
+- minecraft.command.pardon
+- weight.80
+prefixes:
+- '&5&lMOD &r':
+    priority: 0
