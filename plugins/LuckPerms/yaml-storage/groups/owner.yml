@@ -10,6 +10,7 @@ permissions:
 - minecraft.*
 - tab.*
 - bukkit.command.reload
+- bukkit.command.tps
 - customwings
 - displayname.Owner
 - essentials.afk

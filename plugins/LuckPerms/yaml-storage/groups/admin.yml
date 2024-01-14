@@ -1,8 +1,10 @@
 name: admin
 permissions:
+- customwings.wing.*
 - essentials.gamemode.*
 - f3nperm.*
 - minecraft.*
+- bukkit.command.tps
 - customwings
 - displayname.Admin
 - essentials.ban
@@ -23,7 +25,6 @@ permissions:
 - essentials.vanish
 - essentials.weather
 - weight.90
-- customwings.wing.*
 prefixes:
 - '&c&lADMIN &r':
     priority: 0
