@@ -19,7 +19,7 @@ aliases:
   mapupdate:
   - dynmap updaterender
   maprenderarea:
-  - dynmap radiusrender 1000
+  - dynmap radiusrender 500
   cancelrender:
   - dynmap cancelrender
   
