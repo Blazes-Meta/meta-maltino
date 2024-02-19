@@ -1,3 +1,6 @@
 *.yml linguist-detectable=true
 *.properties linguist-detectable=true
 *.bat linguist-detectable=true
+*.sh linguist-detectable=true
+
+plugins/dynmap/**.txt linguist-language=YAML
