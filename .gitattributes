@@ -5,5 +5,3 @@
 
 plugins/dynmap/**.txt linguist-detectable=true
 plugins/dynmap/**.txt linguist-language=YAML
-
-.DISCORD/*.txt linguist-language=Markdown
