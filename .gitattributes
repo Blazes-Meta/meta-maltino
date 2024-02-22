@@ -6,6 +6,7 @@
 
 plugins/dynmap/**.txt linguist-detectable=true
 plugins/dynmap/**.txt linguist-language=YAML
+plugins/dynmap/worlds.md.txt linguist-detectable=false
 
 ops.json linguist-detectable=false
 whitelist.json linguist-detectable=false
