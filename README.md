@@ -1,5 +1,5 @@
 # Meta & Maltino Minecraft Project GitHub
-![Static Badge](https://img.shields.io/badge/Server%20files-Type?label=Type&labelColor=282c2c&color=F0B132) ![Static Badge](https://img.shields.io/badge/Paper-Loader?label=Loader&labelColor=282c2c&color=00A8FC) ![GitHub last commit](https://img.shields.io/github/last-commit/Blazes-Meta/meta-maltino-minecraft-server?logo=github&label=Latest%20Development&labelColor=282c2c&color=248046) ![GitHub License](https://img.shields.io/github/license/Blazes-Meta/meta-maltino-minecraft-server?label=License)
+![Static Badge](https://img.shields.io/badge/Server%20files-Type?label=Type&labelColor=282c2c&color=F0B132) ![Static Badge](https://img.shields.io/badge/Paper-Framework?label=Framework&labelColor=282c2c&color=00A8FC) ![GitHub last commit](https://img.shields.io/github/last-commit/Blazes-Meta/meta-maltino-minecraft-server?logo=github&label=Latest%20Development&labelColor=282c2c&color=248046) ![GitHub License](https://img.shields.io/github/license/Blazes-Meta/meta-maltino-minecraft-server?label=License)
 
 This repository contains the default configuration for Meta & Maltino Minecraft servers  
 Everything is written in German since we are a German community
