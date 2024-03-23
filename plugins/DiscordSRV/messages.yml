@@ -378,7 +378,7 @@ ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server ist offlin
 # Nachricht, die gesendet wird, wenn man "/discord" ausführt. Es ist empfohlen, hierbei die Kommandosyntax mit zu integrieren
 # Verwenden Sie {INVITE} als Platzhalter für den Einladungslink, den Benutzer benötigen, um dem Discord-Server beizutreten. Verwenden Sie den in config.yml konfigurierten DiscordInviteLink
 #
-DiscordCommandFormat: "&bTritt unserem Discordserver bei, um auf dem Laufenden zu bleiben: {INVITE}&b."
+DiscordCommandFormat: "&9Tritt unserem Discordserver bei, um auf dem Laufenden zu bleiben: {INVITE}9b."
 
 # Kein Berechtigungsnachrichtenformat
 NoPermissionMessage: "&cDu hast keine Berechtigung diesen Befehl auszuführen."

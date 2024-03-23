@@ -33,7 +33,7 @@ Channels: {"global": "_CHANNEL"}
 DiscordConsoleChannelId: "000000000000000000"
 
 # Der Einladungslink wird den Spielern bei Verwendung von /discord und in der Nachricht angezeigt, die den nicht verbundenen Spielern angezeigt wird, wenn die Verknüpfung erzwungen wird
-DiscordInviteLink: "https://discord.gg/changethisintheconfig.yml"
+DiscordInviteLink: "https://discord.gg/2YvbptpAqz"
 
 # Debug-Informationen
 # Aktivieren Sie diese nur, wenn Sie versuchen, ein Problem zu finden
