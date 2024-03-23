@@ -92,7 +92,7 @@ messages:
     #commands:
     #- give {player} diamond 1
   first-join:
-    enabled: true
+    enabled: false
     priority: -1
     count:
       - 1
@@ -118,7 +118,7 @@ messages:
     storage-type: default
     delay: 0
   entered-nether:
-    enabled: true
+    enabled: false
     count:
       - -1
     permission: false
