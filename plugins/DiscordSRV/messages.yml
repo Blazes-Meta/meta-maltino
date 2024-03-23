@@ -378,7 +378,7 @@ ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server ist offlin
 # Nachricht, die gesendet wird, wenn man "/discord" ausführt. Es ist empfohlen, hierbei die Kommandosyntax mit zu integrieren
 # Verwenden Sie {INVITE} als Platzhalter für den Einladungslink, den Benutzer benötigen, um dem Discord-Server beizutreten. Verwenden Sie den in config.yml konfigurierten DiscordInviteLink
 #
-DiscordCommandFormat: "&bBesuch uns im Discord unter {INVITE}&b. Für eine Befehlsliste nutze \"/discord ?\""
+DiscordCommandFormat: "&bTritt unserem Discordserver bei, um auf dem Laufenden zu bleiben: {INVITE}&b."
 
 # Kein Berechtigungsnachrichtenformat
 NoPermissionMessage: "&cDu hast keine Berechtigung diesen Befehl auszuführen."
@@ -390,8 +390,8 @@ UnknownCommandMessage: "&bDieser Befehl existiert nicht!"
 # DiscordChatChannelServerStartupMessage: Nachricht beim Start des Servers, leer lassen zum deaktivieren
 # DiscordChatChannelServerShutdownMessage: Nachricht beim Stopp des Servers, leer lassen zum deaktivieren
 #
-DiscordChatChannelServerStartupMessage: "## :Allowed: **Server wurde gestartet**"
-DiscordChatChannelServerShutdownMessage: "## :Forbidden: **Server wurde heruntergefahren**"
+DiscordChatChannelServerStartupMessage: "# :Allowed: **Server wurde gestartet**"
+DiscordChatChannelServerShutdownMessage: "# :Forbidden: **Server wurde heruntergefahren**"
 
 # Server-Watchdog
 #
