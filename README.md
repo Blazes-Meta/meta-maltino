@@ -14,7 +14,9 @@ Everything is written in German since we are a German community
 > * Serversoftware basiert auf Paper
 > * Konfiguration von `server.properties`
 > * [Plugindateien](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki/Plugins,-Datapacks) müssen in `/plugins/` abgelegt werden
-> * [Welt erstellen](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki/Welt-erstellen)
+> * [Welterstellung](https://github.com/Blazes-Meta/meta-maltino-minecraft-server/wiki/Welt-erstellen)
+> * Konfiguration folgender Plugins:
+>   * DiscordSRV
 > 
 > **Verwendung bei Localhost**
 > * `/.LOCALHOST/**` ins Hauptverzeichnis kopieren
