@@ -2,7 +2,7 @@
 *.properties linguist-detectable=true
 *.bat linguist-detectable=true
 *.sh linguist-detectable=true
-*.json linguist-detectable
+*.json linguist-detectable=true
 
 plugins/dynmap/**.txt linguist-detectable=true
 plugins/dynmap/**.txt linguist-language=YAML
