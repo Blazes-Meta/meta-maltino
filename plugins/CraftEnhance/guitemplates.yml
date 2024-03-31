@@ -284,9 +284,7 @@ RecipeDisabler:
       buttonType: PrvPage
       color: base64eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJmZjhhYWE0YjJlYzMwYmM1NTQxZDQxYzg3ODIxOTliYWEyNWFlNmQ4NTRjZGE2NTFmMTU5OWU2NTRjZmM3OSJ9fX0=
       material: GUI_SKULL_ITEM
-      name: '&aPrevious Page'
-      lore:
-      - '&fGo to the previous page'
+      name: '&aVorherige Seite'
       glow: true
     '48':
       buttonType: SwitchDisablerMode
@@ -297,18 +295,16 @@ RecipeDisabler:
     '50':
       buttonType: Search
       material: WRITTEN_BOOK
-      name: '&fclick to seach for recipe'
+      name: '&fSuche ein Rezept'
       lore:
-      - '&fLeftclick to reset'
-      - '&fRightclick to seach'
+      - '&fLinksklicke um zurückzusetzen'
+      - '&fRechtsklicke um zu suchen'
       glow: true
     '51':
       buttonType: NxtPage
       color: base64eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWFiOTVhODc1MWFlYWEzYzY3MWE4ZTkwYjgzZGU3NmEwMjA0ZjFiZTY1NzUyYWMzMWJlMmY5OGZlYjY0YmY3ZiJ9fX0=
       material: GUI_SKULL_ITEM
       name: '&aNächste Seite'
-      lore:
-      - '&fGo to the next page'
       glow: true
     0-8,45-46,49,52-53:
       color: BLUE
