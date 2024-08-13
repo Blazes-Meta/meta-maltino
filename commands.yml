@@ -8,12 +8,12 @@ ignore-vanilla-permissions: false
 aliases:
   
   # Servertools Datapack
-  sleeppls:
-  - function st:broadcast/sleep
-  broadcast:stop:
-  - function st:broadcast/stop
-  broadcast:restart:
-  - function st:broadcast/restart
+  #sleeppls:
+  #- function st:broadcast/sleep
+  #broadcast:stop:
+  #- function st:broadcast/stop
+  #broadcast:restart:
+  #- function st:broadcast/restart
   
   # Dynmap
   mapupdate:
@@ -23,8 +23,16 @@ aliases:
   cancelrender:
   - dynmap cancelrender
   
-  # Entregistrierungen von Ungebrauchtem und Befehlen mit Namensraum
+  # Entregistrierungen von Ungebrauchten und Befehlen mit Namensraum
   about:
+  - []
+  bettermessages:
+  - []
+  bettermessages:bettermessages:
+  - []
+  bettermessages:bm:
+  - []
+  bm:
   - []
   bukkit:?:
   - []
@@ -45,6 +53,12 @@ aliases:
   bukkit:version:
   - []
   callback:
+  - []
+  craftenhance:ceh:
+  - []
+  craftenhance:edititem:
+  - []
+  craftenhance:recipes:
   - []
   customwings:
   - []
@@ -158,9 +172,15 @@ aliases:
   - []
   t:
   - []
+  tab:
+  - []
+  tab:tab:
+  - []
   tm:
   - []
   ver:
+  - []
+  voicechat:voicechat:
   - []
   w:
   - []
