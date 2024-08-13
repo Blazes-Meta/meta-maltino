@@ -11,6 +11,7 @@ permissions:
 - tab.*
 - bukkit.command.reload
 - bukkit.command.tps
+- bukkit.command.restart
 - customwings
 - displayname.Owner
 - essentials.afk
