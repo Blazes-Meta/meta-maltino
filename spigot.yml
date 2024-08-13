@@ -14,7 +14,7 @@ settings:
   debug: false
   timeout-time: 60
   restart-on-crash: true
-  restart-script: ./start.sh
+  restart-script: start.sh
   save-user-cache-on-stop-only: false
   sample-count: 12
   bungeecord: false
