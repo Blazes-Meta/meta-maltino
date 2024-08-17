@@ -1,7 +1,6 @@
 name: moderator
 permissions:
 - customwings.wing.*
-- bukkit.command.tps
 - displayname.Moderator
 - essentials.ban
 - essentials.kick

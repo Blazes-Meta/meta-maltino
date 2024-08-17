@@ -1,14 +1,14 @@
 name: default
 permissions:
-- customwings.wing.*:
-    value: false
-- f3nperm.*:
-    value: false
 - bukkit.command.tps
 - craftenhance.view
+- customwings.wing.*:
+    value: false
 - displayname.Standard
 - essentials.afk
 - essentials.msg
+- f3nperm.*:
+    value: false
 - gsit.bellyflop
 - gsit.crawl
 - gsit.crawlsneak

@@ -1,16 +1,14 @@
 name: admin
 permissions:
-- customwings.wing.*
-- essentials.gamemode.*
-- f3nperm.*
-- minecraft.*
 - bukkit.command.tps
 - customwings
+- customwings.wing.*
 - displayname.Admin
 - essentials.ban
 - essentials.enchant
 - essentials.enderchest
 - essentials.fly
+- essentials.gamemode.*
 - essentials.gamemode
 - essentials.invsee
 - essentials.kick
@@ -24,6 +22,8 @@ permissions:
 - essentials.unban
 - essentials.vanish
 - essentials.weather
+- f3nperm.*
+- minecraft.*
 - weight.90
 prefixes:
 - '&c&lADMIN &r':
