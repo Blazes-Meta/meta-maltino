@@ -37,7 +37,7 @@ scoreboard-teams:
   invisible-nametags: false
   anti-override: false
   sorting-types:
-  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - GROUPS:owner,admin,moderator,default
   - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
@@ -59,14 +59,14 @@ playerlist-objective:
   fancy-value: '&7Ping: %ping%'
   disable-condition: '%world%=disabledworld'
 belowname-objective:
-  enabled: false
+  enabled: true
   number: '%health%'
-  text: '&cHealth'
+  text: '&4❤'
   fancy-display-players: '&c%health%'
   fancy-display-default: NPC
   disable-condition: '%world%=disabledworld'
 prevent-spectator-effect:
-  enabled: false
+  enabled: true
 bossbar:
   enabled: false
   toggle-command: /bossbar
