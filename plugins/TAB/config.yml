@@ -9,24 +9,8 @@ header-footer:
   footer:
   - ''
   - '&7Uhrzeit &b%time%'
-  #- '&7RAM-Auslastung: %memory-used-gb% GB / %memory-max-gb% GB'
   - '&c[%tps% TPS]'
   - <#9c27d2>&m                                                </#6027d2>
-#  disable-condition: '%world%=disabledworld'
-#  per-world:
-#    world1:
-#      header:
-#      - an example of world with custom
-#      footer:
-#      - header/footer and prefix/suffix
-#    world2;world3:
-#      header:
-#      - This is a shared header for
-#      - world2 and world3
-#  per-server:
-#    server1:
-#      header:
-#      - an example of server with custom header
 tablist-name-formatting:
   enabled: true
   anti-override: true
@@ -68,16 +52,23 @@ belowname-objective:
 prevent-spectator-effect:
   enabled: true
 bossbar:
-  enabled: false
+  enabled: true
   toggle-command: /bossbar
   remember-toggle-choice: false
   hidden-by-default: false
   bars:
-    ServerInfo:
-      style: PROGRESS
-      color: '%animation:barcolors%'
-      progress: '100'
-      text: '&fWebsite: &bwww.domain.com'
+    # ServerInfo:
+    #   style: PROGRESS
+    #   color: '%animation:barcolors%'
+    #   progress: '100'
+    #   text: '&fWebsite: &bwww.domain.com'
+    Restart:
+      style: NOTCHED_6
+      color: "GREEN"
+      #progress: "%countdown%/60"
+      progress: "%math_{%countdown%/60}%"
+      text: "Restart in %countdown% Sekunden"
+      announcement-bar: true #false or undefined means it will be visible all the time
 scoreboard:
   enabled: false
   toggle-command: /sb
@@ -161,6 +152,7 @@ placeholders:
   date-format: dd.MM.yyyy
   time-format: '[HH:mm]'
   time-offset: 0
+  register-tab-expansion: true
 placeholder-output-replacements:
   '%essentials_vanished%':
     'yes': '&7| Vanished'
@@ -227,3 +219,4 @@ global-playerlist:
     - server2
 use-bukkit-permissions-manager: false
 use-online-uuid-in-tablist: true
+permission-refresh-interval: 1000
