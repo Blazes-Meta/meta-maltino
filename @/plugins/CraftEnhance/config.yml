@@ -1,0 +1,35 @@
+# ---------------------------------------- #
+# This is the config file of CraftEnhance. #
+# ---------------------------------------- #
+
+enable-debug: false
+enable-recipes: true
+
+# This update checker checks for new versions on the github page.
+enable-updatechecker: true
+
+# If this option is enabled, people can only see recipes that they have permissions to.
+only-show-available: true
+
+# Enable this to make the players learn the recipes (making them show up in the green recipe book)
+learn-recipes: false
+
+debug-prefix: "[DEBUG] "
+global-prefix: "&7[&bCraft&dEnhance&7] &r"
+
+#If it shall save the recipe when close menu
+save_on_close: true
+# These permissions are used globally by all features of the plugin.
+perms:
+  recipe-editor: "craftenhance.edit"
+  recipe-viewer: "craftenhance.view"
+  item-editor: "craftenhance.edititems"
+  categorys-editor: "craftenhance.edit_categorys"
+
+messages:
+  global:
+    no-perms: "Du darfst das nicht"
+  commands:
+    show-options: "Du hast einen unfertigen befehl eingegeben. Du kannst folgende Argumente verwenden: &e[PLACEHOLDER]&r."
+    few-arguments: "Nutze [PLACEHOLDER] Argumente für den Befehl." 
+    only-for-players: "Dieser befehl kann nur von SPielern verwendet werden."

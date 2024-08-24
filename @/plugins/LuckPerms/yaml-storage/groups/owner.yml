@@ -1,0 +1,40 @@
+name: owner
+permissions:
+- bukkit.command.reload
+- bukkit.command.tps
+- bukkit.command.restart
+- craftenhance.*
+- customwings
+- customwings.*
+- displayname.Owner
+- dynmap.*
+- essentials.afk
+- essentials.ban
+- essentials.enchant
+- essentials.enderchest
+- essentials.fly
+- essentials.gamemode
+- essentials.gamemode.*
+- essentials.invsee
+- essentials.kick
+- essentials.kickall
+- essentials.msg
+- essentials.nick
+- essentials.recipe
+- essentials.skull
+- essentials.spawnmob
+- essentials.teleport
+- essentials.tempban
+- essentials.unban
+- essentials.vanish
+- essentials.weather
+- f3nperm.*
+- gsit.*
+- luckperms.*
+- minecraft.*
+- maintenance.admin
+- tab.*
+- weight.100
+prefixes:
+- '&4&lOWNER &r':
+    priority: 1

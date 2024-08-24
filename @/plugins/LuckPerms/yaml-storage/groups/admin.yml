@@ -1,0 +1,30 @@
+name: admin
+permissions:
+- bukkit.command.tps
+- customwings
+- customwings.wing.*
+- displayname.Admin
+- essentials.ban
+- essentials.enchant
+- essentials.enderchest
+- essentials.fly
+- essentials.gamemode.*
+- essentials.gamemode
+- essentials.invsee
+- essentials.kick
+- essentials.kickall
+- essentials.nick
+- essentials.recipe
+- essentials.skull
+- essentials.spawnmob
+- essentials.teleport
+- essentials.tempban
+- essentials.unban
+- essentials.vanish
+- essentials.weather
+- f3nperm.*
+- minecraft.*
+- weight.90
+prefixes:
+- '&c&lADMIN &r':
+    priority: 0

@@ -1,0 +1,85 @@
+#-------------------------------------------------#
+#        Meta-Maltino-Minecraftprojekt            #
+#     plugins/CustomWings/config.yml preset       #
+#-------------------------------------------------#
+
+
+# To configure wings or add you own wings, edit or add the files in the 'wings' folder.
+
+# The main command of the plugin, you will have to restart your server when changing this.
+commandName: "customwings"
+commandAliases:
+  - "wings"
+
+# Disable the check for new versions of this plugin on spigot at startup.
+disableUpdateCheck: false
+
+# The distance (in blocks) players have to be within to see each others wings.
+wingViewDistance: 30
+
+# Maximum pitch at which wings will render for the player to allow them to look down without obstructing vision.
+# Value can range from 90 to -90, where 90 is looking straight down and -90 is looking straight up (same as in minecraft's F3 info screen).
+wingMaxPitch: 70
+
+# Should wings be hidden when player has invisibility effect.
+invisibilityPotionHidesWing: true
+
+# Settings for the wing selector menu.
+# Remeber slot numbers start at 0.
+wingSelectMenu:
+  name: "Flügel auswählen"
+  size: 36 # Must be a multiple of 9.
+  pages: 1
+
+  # Item player can use to not equip any wing.
+  removeWingItem:
+    name: "&cFlügel entfernen"
+    material: BARRIER
+    slot: 35
+
+  # Item players can use to toggle if they want to see their own wing
+  showWingToggleItem:
+    nameON: "&aFlügel werden angezeigt"
+    materialON: GREEN_STAINED_GLASS
+    nameOFF: "&cFlügel werden versteckt"
+    materialOFF: RED_STAINED_GLASS
+    slot: 33
+
+  # Item players can use to toggle if they want to see other player wings.
+  hideWingsToggleItem:
+    nameON: "&cFlügel anderer Spieler werden versteckt"
+    materialON: RED_STAINED_GLASS
+    nameOFF: "&aFlügel anderer Spieler werden angezeigt"
+    materialOFF: GREEN_STAINED_GLASS
+    slot: 34
+
+  # If pages is bigger then 1, it will show the navigation items.
+  navigationItem:
+    next:
+      name: "&9Nächste Seite"
+      material: FEATHER
+      slot: 32
+    previous:
+      name: "&9Vorherige Seite"
+      material: FEATHER
+      slot: 31
+
+  # Allow player to hide wings in the gui that they own/don't own.
+  filterItem:
+    enable: true
+    slot: 27
+    noFilter:
+      name: "&aKein Filter"
+      material: BARRIER
+      lore:
+        - "&7Zeigt alle Flügel"
+    ownedWings:
+      name: "&aIm Besitz"
+      material: LIME_WOOL
+      lore:
+        - "&7Zeigt nur Flügel die du besitzt"
+    unownedWings:
+      name: "&cNicht im Besitz"
+      material: RED_WOOL
+      lore:
+        - "&7Zeigt nur Flügel die du nicht besitzt"

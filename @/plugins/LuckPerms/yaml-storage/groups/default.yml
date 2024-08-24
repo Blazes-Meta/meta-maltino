@@ -1,0 +1,20 @@
+name: default
+permissions:
+- bukkit.command.tps
+- craftenhance.view
+- customwings.wing.*:
+    value: false
+- displayname.Standard
+- essentials.afk
+- essentials.msg
+- f3nperm.*:
+    value: false
+- gsit.bellyflop
+- gsit.crawl
+- gsit.crawlsneak
+- gsit.lay
+- gsit.playersit
+- gsit.pose
+- gsit.sit
+- gsit.sitclick
+- gsit.spin

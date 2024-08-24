@@ -1,0 +1,42 @@
+#-------------------------------------------------#
+#        Meta-Maltino-Minecraftprojekt            #
+#    plugins/CustomWings/messages.yml preset      #
+#-------------------------------------------------#
+
+
+# Wings
+wingEquipped: "&b&l{CustomWings} &3Du hast die {WINGNAME}-&3Flügel ausgerüstet"
+hideOtherPlayerWingsON: "&b&l{CustomWings} &3Die Flügel anderer Spieler werden nun nicht mehr angezeigt"
+hideOtherPlayerWingsOFF: "&b&l{CustomWings} &3Die Flügel anderer Spieler werden nun angezeigt"
+
+
+# Editor
+settingChanged: "&b&l{CustomWings} &3Einstellungen geändert"
+settingCancelled: "&b&l{CustomWings} &cÄnderung der Einstellungen abgebrochen"
+typeSettingInChat: "&b&l{CustomWings} &3Schreibe den neuen Wert für die Einstellung in den Chat. Benutze einen Befehl, um abzubrechen."
+selectSettingMaterial: "&b&l{CustomWings} &3Klicke einen Gegestand in einem Inventar, um ihn als Material auszuwählen. Schreibe etwas in den Chat, um abzubrechen."
+
+
+# General
+reloadSucces: "&b&l{CustomWings} &3CustomWings wurde neugeladen"
+setWingCommandSucces: "&b&l{CustomWings} {PLAYERNAME}s Flügel wurden zu {WINGNAME} geändert"
+showWingCommandSucces: "&b&l{CustomWings} Für {PLAYERNAME} werden {SHOW} angezeigt"
+takeAwayWingCommandSucces: "&b&l{CustomWings} &3{PLAYERNAME}s Zugriff auf {WINGNAME}-Flügel &3wurde entfernt"
+wingBuySuccess: "&b&l{CustomWings} Du hast erfolgreich {WINGNAME}-&3Flügel gekauft"
+
+
+# Error messages
+noPermissionForCommandError: "&b&l{CustomWings} &cDu hast nicht die nötigen Berechtigungen, um den {COMMAND}-Befehl zu benutzen. Es wird die Berechtigung {PERMISSION} benötigt"
+noPermissionToEquipWingError: "&b&l{CustomWings} &cDu hast nicht die nötigen Berechtigungen, um die {WINGNAME}&c Flügel auszurüsten. Es wird die Berechtigung {PERMISSION} benötigt"
+notAPlayerError: "&b&l{CustomWings} &cNur Spieler können diesen Befehl ausführen!"
+notConsoleError: "&b&l{CustomWings} &cNur die Konsole können diesen Befehl ausführen!"
+invalidPlayerError: "&b&l{CustomWings} &cSpieler mit dem Namen {PLAYERNAME} &cwurde nicht gefunden!"
+invalidWingsError: "&b&l{CustomWings} &cFlügel mit dem Namen {WINGNAME} &cwurden nicht gefunden!"
+noWingToPreviewError: "&b&l{CustomWings} &cRüste einen Flügel aus, um ihn dir anzusehen"
+missingArugmentsError: "&b&l{CustomWings} &cFehlende Argumente"
+missingArgumentsSetwingError: "&b&l{CustomWings} &cFehlende Argumente, verwende /wings setwing [Spieler] [wingID]"
+missingArgumentsTakeAwayWingError: "&b&l{CustomWings} &cFehlende Argumente, verwende /wings takeaway [Spieler] [wingID]"
+cantAffordWingError: "&b&l{CustomWings} &cDu kannst dir die {WINGNAME}-Flügel nicht leisten!"
+noVaultError: "&b&l{CustomWings} &cVault wird benötigt um diese Aktion auszuführen"
+invalidSubCommandError: "&b&l{CustomWings} &cUngültiger Befehl, verwende /wings <setwing/preview/edit/reload/takeawaywing>"
+
