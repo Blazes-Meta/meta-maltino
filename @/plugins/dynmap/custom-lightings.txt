@@ -1,9 +1,0 @@
-# The user is free to add new and custom lightings here, including replacements for standard ones
-# Dynmap's install will not overwrite it
-lightings:
-  - class: org.dynmap.hdmap.ShadowHDLighting
-    name: vikos_end
-    shadowstrength: 1.0
-    ambientlight: 10
-    night-and-day: false
-    smooth-lighting: false
