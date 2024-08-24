@@ -1,0 +1,8 @@
+# Server
+start.*
+cache/
+libraries/
+versions/
+plugins/.paper-remapped/
+logs/
+eula.txt
