@@ -54,6 +54,14 @@ aliases:
   - []
   callback:
   - []
+  core:
+  - []
+  coreprotect:co:
+  - []
+  coreprotect:core:
+  - []
+  coreprotect:coreprotect:
+  - []
   craftenhance:ceh:
   - []
   craftenhance:edititem:
@@ -61,6 +69,10 @@ aliases:
   craftenhance:recipes:
   - []
   customwings:
+  - []
+  discordsrv:discord:
+  - []
+  discordsrv:discordsrv:
   - []
   dmap:
   - []
@@ -169,6 +181,8 @@ aliases:
   seen:wings:
   - []
   spigot:tps:
+  - []
+  spigot:restart:
   - []
   t:
   - []
