@@ -32,6 +32,7 @@ permissions:
 - gsit.*
 - luckperms.*
 - minecraft.*
+- maintenance.admin
 - tab.*
 - weight.100
 prefixes:
