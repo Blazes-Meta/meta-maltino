@@ -6,7 +6,6 @@
     <p>This repository contains the default configuration for Meta & Maltino Minecraft servers,<br> everything is written in German since we are a German community</p>
 </div>
 
----
 ## Verwendung
 > [!IMPORTANT]\
 > **Folgende Aktionen müssen beim Aufsetzen eines Servers beachtet werden:**  
